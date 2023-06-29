@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jun 13 02:16:46 JST 2023
+tamacat-httpd-1.5-tc9.0.76-sources.jar>=
+tamacat-httpd-1.5-tc9.0.76-jar-with-dependencies.jar>=
+tamacat-httpd-1.5-tc9.0.76.jar>=
+tamacat-httpd-1.5-tc9.0.76.pom>=

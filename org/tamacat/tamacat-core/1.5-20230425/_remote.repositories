@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 25 10:09:38 JST 2023
+tamacat-core-1.5.jar>tamacat.org=
+tamacat-core-1.5.pom>=
+tamacat-core-1.5.pom>tamacat.org=
+tamacat-core-1.5-sources.jar>tamacat.org=
+tamacat-core-1.5-sources.jar>=
+tamacat-core-1.5.jar>=

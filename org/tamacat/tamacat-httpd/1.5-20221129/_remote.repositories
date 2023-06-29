@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 30 03:47:03 JST 2022
+tamacat-httpd-1.5.jar>tamacat.org=
+tamacat-httpd-1.5-jar-with-dependencies.jar>=
+tamacat-httpd-1.5-sources.jar>=
+tamacat-httpd-1.5-sources.jar>tamacat.org=
+tamacat-httpd-1.5.pom>tamacat.org=
+tamacat-httpd-1.5.jar>=
+tamacat-httpd-1.5.pom>=

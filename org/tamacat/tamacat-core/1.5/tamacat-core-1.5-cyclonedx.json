@@ -1,0 +1,705 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:45880c6f-12fb-4158-a9a8-0e66f5d1b3f0",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-06-29T11:26:29Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "org.tamacat",
+      "name" : "tamacat-core",
+      "version" : "1.5",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.tamacat/tamacat-core@1.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://tamacat.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/tamacat/tamacat-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.tamacat/tamacat-core@1.5?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.xml.bind",
+      "name" : "jakarta.xml.bind-api",
+      "version" : "2.3.3",
+      "description" : "Jakarta XML Binding API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "61286918ca0192e9f87d1358aef718dd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "48e3b9cfc10752fba3521d6511f4165bea951801"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c04539f472e9a6dd0c7685ea82d677282269ab8e7baca2e14500e381e0c6cec5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "adf6436a7a9dc6f64b97127861d7a89b78e82bea67f72bda800ef285163adcd84dbf006f679108a2a8c2eed013e0b771da2354087e0845479ff2b6318b881442"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bad8b9f52bf7a7e1d3974cb305a69c093fb32d2131539c18d34e471e3ec32bdd9dd136bb4b38bb14d84e99c562f208c7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-api/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "1.2.2",
+      "description" : "Jakarta Activation API jar",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1cbb480310fa1987f9db7a3ed7118af7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "99f53adba383cb1bf7c3862844488574b559621f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a187a939103aef5849a7af84bd7e27be2d120c410af291437375ffe061f4f09d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e3d846ff5f62ad9fef514f0726846c63d4aa74b2bb8f60c76258dba37701f83ae75872401071bf40da40697d43a8a6e36d08fa4ef39fe70797fb6f2b1712599f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3e25702596eca7dd48f904b3985d64b4b394d162d3884a907d8b2ee647542808713a42a02f0eeff2c07518a206cc91cf"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-impl",
+      "version" : "2.3.8",
+      "description" : "Old JAXB Runtime module. Contains sources required for runtime processing.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "74dc1f4b4d34a50058ab80da0688f586"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0d68006e5fbd47f7b88aa7b06c4ced74de52fa2d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a642cab235092078603bf448f22635a1c0fe5c06dfe8a36687520f875cc666dc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "44248ea299db29fbd9bd93d0fba0977288e85b735a517641cecc3ed2ab14d65eda77cc99d08f63a733d17ddd2604cca7d55e1ad2f191ab3a781a5324d27372d3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b9a7ac0785c2ef462487084700470ac3198eeba4c6fcfd8380f14f48a822302d72d9973729785677fb7565b5b88aba31"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.activation",
+      "name" : "jakarta.activation",
+      "version" : "1.2.2",
+      "description" : "Jakarta Activation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0b8bee3bf29b9a015f8b992035581a7c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "74548703f9851017ce2f556066659438019e7eb5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8bd94a4370b827e3904f31253b022e5c1851896d3b616ca7daebfef259238cedc56d4ced32c74f24a13c3e2295b0ea012af5d04656b7f713cc53a2f18d5e2cf7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1cb0aff8b73ba52a9931b2cf13c75a1ce6665fb826bf97ede66db75c532136aa189fb53a1925e62b6eef572309ef3b9a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaf/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaf/jakarta.activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-api",
+      "version" : "2.20.0",
+      "description" : "The Apache Log4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f9446464667f0139b839b5e9da37f5b9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1fe6082e660daf07c689a89c94dc0f49c26b44bb"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2f43eea679ea66f14ca0f13fec2a8600ac124f5a5231dcb4df8393eddcb97550"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "851016b38421d21864bb3073089c44000f941bfbaa9dc518db7bf7fb3c7f942bfb2c0c7b832e375e82b2f285379bd0935e42aa1833817daacb4fca2a6a9500bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "12b05c61f49caab0b845e93967228a3bd3ab096c4ea1516cb7263f49963137a688a178ddebe790ccc3c0c73f2d4440fc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-api/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/logging-log4j2/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/logging-log4j2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/logging-log4j2/log4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-core",
+      "version" : "2.20.0",
+      "description" : "The Apache Log4j Implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "20bd40d026d35a93fe710acb141e93da"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eb2a9a47b1396e00b5eee1264296729a70565cc0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6137df848cdaed9f4d5076f75513c6c85da80b953f4e7acca38098b770763f55"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a7fe8fa2304c1b013513c1838013804cf601a7148dfef95642ea763c9550a6d844d9a1e528c9c21efc7ea830d13fbbb55e2db2c2eeb5542c4d9f00c127f211e4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1d8b0349286118f102014706f02b7851f10ca0b1554bd7a2e1efdda76ccab6e0abd967490d06fca030f2a26289686275"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-core/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/logging-log4j2/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/logging-log4j2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/logging-log4j2/log4j-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-slf4j-impl",
+      "version" : "2.20.0",
+      "description" : "The Apache Log4j SLF4J API binding to Log4j 2 Core",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2c7d69b9812f9729c0f43d97cbaef5fc"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7ab4f082fd162f60afcaf2b8744a3d959feab3e8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "776e3f6087bb82ec34ab6dd795a6dca6733b965ad0da0fa92cbe370fa9aac7bc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a4c70f3c0d4805457a020fcf6d0327c6dc0b1189f7e46c659f15b414442286553d6ef09cc5767bd6c24bc088fdb4622e57e160f7805c0352aae3b4df8ef90a51"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e9fa10ab4963d008a57b432e63ff833f8eec8cd13135d879844b48f12e935caba3b5424c5fe3c84c8c0c0b30126dd056"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.20.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-slf4j-impl/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/logging-log4j2/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/logging-log4j2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/logging-log4j2/log4j-slf4j-impl"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.20.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.logging.log4j",
+      "name" : "log4j-1.2-api",
+      "version" : "2.20.0",
+      "description" : "The Apache Log4j 1.x Compatibility API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "986cff74b065cdd1d6b860ac1e9a20fa"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "689151374756cb809cb029f2501015bdc7733179"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "89d761af83de7e08e3c1916bc757242cedbbc1f38fb76fd13f89ef36b2671a45"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "64f208ca34f3ca9d7902024d781b629795ffaa41ac4f4dd4487e1e0ff97351d62d83f399d6f8b5a7044af5d9b117a7cdd74a7b0fd2030af5bc4ba05a3e344a24"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6c33bce8423e1ac38ac9f11fbec247bc2255dc2a9f1d9994e87c6db861de51df606d1a4163b1c1a3e57987f0f64e2694"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://logging.apache.org/log4j/2.x/log4j-1.2-api/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/logging-log4j2/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://logging.apache.org/log4j/2.x/download.html"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/logging-log4j2/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?log4j-user@logging.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/logging-log4j2/log4j-1.2-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.7",
+      "description" : "The slf4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "403dffa46cdd2e3c82da19df4f394a4c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "41eb7184ea9d556f23e18b5cb99cad1f8581fc00"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "216d2cac27d501972c888f94dfa747d700b80d60813884b6ab4b12c6a3b17ed0c21a1d27e1aa4332c97c828f20039e3913d2763d7e1a3cef36ae4389a276e7a8"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c25b39f418aa726ba8405dfd9b356131f89984e2ef5a55a724a2abf3b7c78443f671105835161d2414d602cf03da9f2d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.tamacat/tamacat-core@1.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+        "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.20.0?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar",
+        "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.20.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+        "pkg:maven/org.apache.logging.log4j/log4j-core@2.20.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.20.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.logging.log4j/log4j-api@2.20.0?type=jar"
+      ]
+    }
+  ]
+}

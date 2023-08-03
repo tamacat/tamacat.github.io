@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:7718d746-d41f-4c17-a524-08ddb323a730",
+  "serialNumber" : "urn:uuid:70418c77-87c7-4f2b-b7e0-86ed7db13c7e",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2023-07-11T00:03:02Z",
+    "timestamp" : "2023-08-03T10:59:34Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -123,29 +123,29 @@
       "publisher" : "Thymeleaf",
       "group" : "org.thymeleaf",
       "name" : "thymeleaf",
-      "version" : "3.1.1.RELEASE",
+      "version" : "3.1.2.RELEASE",
       "description" : "Modern server-side Java template engine for both web and standalone environments",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "3108f0e838a599d8f1d2a423cf7351a7"
+          "content" : "4a9b2210cb35b43fb0b8499e17b9c880"
         },
         {
           "alg" : "SHA-1",
-          "content" : "374a129dfa5e7d7f1a46eacc4d49e594ca0cf26f"
+          "content" : "273997509a4c7aef86cee0521750140c587d9be2"
         },
         {
           "alg" : "SHA-256",
-          "content" : "fceeb26bfd5836b3ab012d9fd6dd50b012fd12a5bddacc0150764a2793fd2703"
+          "content" : "2b3a714be2de349ccb60c65603ae5e8bd7060c7a4f8833485707671e9a862a24"
         },
         {
           "alg" : "SHA-512",
-          "content" : "72668dad5da9c8b7a5db9c9e7c8c4a5882c20596854c2373ce018753c74ed34011fd9166d0357c0e4f06c8409dcc45623540a8153e59eeff5ca5873f71690d60"
+          "content" : "e833f0743c92c3b781c5b61de324b041da593aa1b2f1958de14dc66840f2942714b4b2116b1d7c58049a3ff02782dc319b2b8531a05ee75ce3a9b4a1896f85ac"
         },
         {
           "alg" : "SHA-384",
-          "content" : "00c95fb65135851ced27a2d565d526e11733ca05f6bc15c89b1362da90dc0f13d12f88b5a26a1bf3b0a54b49a7945d67"
+          "content" : "111160b79775d3155111f920af55e2870c488ffd4523e706a5380c71345e32f77e66d0a1b107b239225aacf870771376"
         }
       ],
       "licenses" : [
@@ -155,7 +155,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.1.RELEASE?type=jar",
+      "purl" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -171,7 +171,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.1.RELEASE?type=jar"
+      "bom-ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE?type=jar"
     },
     {
       "publisher" : "OpenSymphony",
@@ -300,29 +300,29 @@
       "publisher" : "The ATTOPARSER team",
       "group" : "org.attoparser",
       "name" : "attoparser",
-      "version" : "2.0.6.RELEASE",
+      "version" : "2.0.7.RELEASE",
       "description" : "Powerful, fast and easy to use HTML and XML parser for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "1017a35126b17d0bac1cd2d58eab578e"
+          "content" : "fd09ceba7061e05460e74e0e1e64f233"
         },
         {
           "alg" : "SHA-1",
-          "content" : "8f603f22a18d4f7258f8860ccbb68b069f49904a"
+          "content" : "e5d0e988d9124139d645bb5872b24dfa23e283cc"
         },
         {
           "alg" : "SHA-256",
-          "content" : "cf88ca8bfddfd8b590b82a52f61462c025c0f99bdb0c1a45cb565106fbcb4f3e"
+          "content" : "75dd1c045492bff8e1963aabb28bfe903c2064e11e27fe2f0f0aff1ad3d84476"
         },
         {
           "alg" : "SHA-512",
-          "content" : "674b1fd92ec4f2192984195023a96d61fb1e9335d32dc37f6bcc71f1227ccb1c13a4a87fe3a35562bb46f91a22002a57e074c63b4fa495b3718ff9a32b097549"
+          "content" : "010a118a86e72ef9018cca65655e93be778039277d0a2aea5676eda4483b0a189d65b3fa944a9af2105dda502c3aebc3c1ab9b64c1a3207aa140c4d2fd054a8b"
         },
         {
           "alg" : "SHA-384",
-          "content" : "b376f0b4c0b2e23eecc1f8b34605b50d5c9f426175dfd6c38dbd2fa4e64a540ef65d45556b8c71b5c621a5995d546917"
+          "content" : "62c6b9b08e9a2b853095d8b111dda1c5fc4342bc87020e3dab0ac53e897127653f2e0197d8d4d75e8b241883de43f65a"
         }
       ],
       "licenses" : [
@@ -332,7 +332,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.attoparser/attoparser@2.0.6.RELEASE?type=jar",
+      "purl" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -348,7 +348,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.attoparser/attoparser@2.0.6.RELEASE?type=jar"
+      "bom-ref" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar"
     },
     {
       "publisher" : "The UNBESCAPE team",
@@ -1451,7 +1451,7 @@
       "ref" : "pkg:maven/org.tamacat/tamacat-httpd@1.5?type=jar",
       "dependsOn" : [
         "pkg:maven/org.tamacat/tamacat-core@1.5?type=jar",
-        "pkg:maven/org.thymeleaf/thymeleaf@3.1.1.RELEASE?type=jar",
+        "pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE?type=jar",
         "pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar",
         "pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar",
         "pkg:maven/commons-codec/commons-codec@1.15?type=jar",
@@ -1494,10 +1494,10 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.1.RELEASE?type=jar",
+      "ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE?type=jar",
       "dependsOn" : [
         "pkg:maven/ognl/ognl@3.3.4?type=jar",
-        "pkg:maven/org.attoparser/attoparser@2.0.6.RELEASE?type=jar",
+        "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
         "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"
       ]
@@ -1513,7 +1513,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.attoparser/attoparser@2.0.6.RELEASE?type=jar",
+      "ref" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
       "dependsOn" : [ ]
     },
     {

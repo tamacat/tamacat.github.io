@@ -3,7 +3,7 @@
   <groupId>org.tamacat</groupId>
   <artifactId>tamacat-httpd</artifactId>
   <versioning>
-    <release>1.5</release>
+    <release>1.5-tc9.0.79</release>
     <versions>
       <version>1.5</version>
       <version>1.5-20230426</version>
@@ -20,7 +20,9 @@
       <version>1.5-tc9.0.78</version>
       <version>1.5-tc9.0.78-20230803</version>
       <version>1.5-tc8.5.91-20230803</version>
+      <version>1.5-tc8.5.92</version>
+      <version>1.5-tc9.0.79</version>
     </versions>
-    <lastUpdated>20230803110854</lastUpdated>
+    <lastUpdated>20230815151601</lastUpdated>
   </versioning>
 </metadata>

@@ -1,5 +1,5 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Aug 16 00:13:30 JST 2023
+#Sun Aug 27 03:07:24 JST 2023
 tamacat-httpd-1.5-sources.jar>=
 tamacat-httpd-1.5.jar>=
 tamacat-httpd-1.5-cyclonedx.json>=

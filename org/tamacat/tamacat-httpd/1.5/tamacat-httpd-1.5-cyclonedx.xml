@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:f096959a-f9e8-4006-92eb-cf1373dbd5d8" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:03d40895-761a-41fd-b212-00e0e4199e80" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-08-15T15:13:29Z</timestamp>
+    <timestamp>2023-08-26T18:07:24Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -352,88 +352,88 @@
       <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.79?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-core</name>
-      <version>9.0.79</version>
+      <version>9.0.80</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">c22f4049862ef3d59b35194d72552fa7</hash>
-        <hash alg="SHA-1">8f0c76a7a4e1a6a3b2aff045db155be2f7fd3391</hash>
-        <hash alg="SHA-256">6841fb96b915f1d08f581675fcc48c2e09807a4134079d61a9a0555206bba8db</hash>
-        <hash alg="SHA-512">1a1b888fd1f1f0a3a47207f566ca8272840a0df6d9b5171d26b1e97292b2443eac49873f995d2969e4a52590d67a67bfe50285fb856f916936665be150a57ce2</hash>
-        <hash alg="SHA-384">af71cb66ba274734e8165d2a54b4cdc8d8ca2d2a235db6744fdfaffaefe925e4a345b5fe0ff34e1932d9e88022a9d2e1</hash>
+        <hash alg="MD5">4be57ffddc135afaf55d5cab2b2e395b</hash>
+        <hash alg="SHA-1">55bd200b34d917428bc37165fb9a6d20a58357d5</hash>
+        <hash alg="SHA-256">db891459133cfc0f2053342df2ebb549936cc2e6335d7d9639e1b9ebea13d069</hash>
+        <hash alg="SHA-512">279d363a97fa2bb824af06f423df9b1b33ff89677239ec5410659a5faadd03a11e6f00945eb557104bfcf43db88bae88b5ac71b77cc287a1a24ee9ad496493a7</hash>
+        <hash alg="SHA-384">9fa7b2c4b58db0dda1a09c3867add7c511ae7be6663198d0f4b6d6eb16631475c8bcc84228453677823bba2d138d7d4a</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.79?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.79?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar">
       <group>org.apache.tomcat</group>
       <name>tomcat-annotations-api</name>
-      <version>9.0.79</version>
+      <version>9.0.80</version>
       <description>Annotations Package</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">197b778b7d88bbb9128f2379707dbce2</hash>
-        <hash alg="SHA-1">021fb0d2de9616422863f09fbbb4c7e4674d2658</hash>
-        <hash alg="SHA-256">96cd9d659904596be8219834c08f8710a819403f40052b1fd7e53407606cac72</hash>
-        <hash alg="SHA-512">c019748815fea3a7354c20ced15a5360660a65af8e287fc131fec58cf275154ecbb0c307013669cc3f731ab36d1a6c05e12437591d3be117ccc1223b72e842da</hash>
-        <hash alg="SHA-384">0461c0539dee0f57c01ce42c9948ec4b5d59092977a30a892925d6e1d8a0584ebbd1db31ea459b7e8e8589054b65f572</hash>
+        <hash alg="MD5">c3c0e1480d2f3412cde71451c2b1c985</hash>
+        <hash alg="SHA-1">208f08db4f672caf9021fc0296c523c3afb128c8</hash>
+        <hash alg="SHA-256">d8f7bc56b227aab5bc3efba36f112b7da38cee7d35ad563593af901f66260308</hash>
+        <hash alg="SHA-512">e0d2aebfb21e9ca0c467967d55cd4b7b44f8706db8486ac161f6446cffaa911ec14eb010bc460c10d7f27e470335c8ccf32549693b9aa312e2fe6e9e719b7d12</hash>
+        <hash alg="SHA-384">54db03e9d60100b4e4428c11d3baabd502b10b17292fe2a1aae571ed26ecb7be59513c3515ab66a5915ff97ee45c6e9b</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.79?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.79?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-jasper</name>
-      <version>9.0.79</version>
+      <version>9.0.80</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">1a710466605bce9968620f7631030051</hash>
-        <hash alg="SHA-1">d115ed266d82045ae606c1254368c2b19f838961</hash>
-        <hash alg="SHA-256">8b7b4937cacc58e8570f1192401f34f8c1b3e6482ae5491267a7e7d512a6ff48</hash>
-        <hash alg="SHA-512">423a40cf5eee4c2c0f78b48afae0b4755cb8c0c61a2734219e95c027d42353a2632f0dcfe14eeb7deebfdda720d608df3c51079f0cb0017031d7d19b26b28bcf</hash>
-        <hash alg="SHA-384">c5ea8a8bf35ad2da2c8980909a7d0527e14e583dfa959606c57b028e89516a8b858e3cd081f95fa4f3472d89edcfcdce</hash>
+        <hash alg="MD5">7639b76fb8b38c160fe107c600e3b9c7</hash>
+        <hash alg="SHA-1">fc3dd6224b995d64b673545260e36bf9c83b86ac</hash>
+        <hash alg="SHA-256">83dd4f2e3d8b957123dffea66158194822d39351fe71049e41f7cf96e1f2fbe9</hash>
+        <hash alg="SHA-512">c581b84bb1ed7a7901381d3f05c65ad2ebfb1a6c34005d516968b649d5a9e81ec5b7232d8b1f73542bc6fa005163b987a4d4345bbd0c8260a1368177a4c5acb3</hash>
+        <hash alg="SHA-384">84d2b5f345424578b6116fa57a0a40ca7cf4ccd4ce0dd84c0b476c6cd8aff35091ff304a11c3510e9cdd6631b6731d5b</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.79?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.79?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-el</name>
-      <version>9.0.79</version>
+      <version>9.0.80</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">12e507d485fb6fa8551d8b064d25337c</hash>
-        <hash alg="SHA-1">c7209c2094ed866c71748beb8a2b57a2f2ffd249</hash>
-        <hash alg="SHA-256">0173ec25c49a334f3353f30f308d12297f69d335433ec97c2c99507686029575</hash>
-        <hash alg="SHA-512">e53a516e8c0f9f5e4989210891b24d531d51955e30ca28d5bfb94ee29840890af1dcff21b3f581740a40f3cd94682bdddb576c62f675f6eee18b85442770bced</hash>
-        <hash alg="SHA-384">02c785c772419055fd64dc4bdc67f3725eee73ea48a4c53cb7a641db09fcfe560829641ba57a72c41c2f0846e6c513f1</hash>
+        <hash alg="MD5">1851d40fba51e9b5871b68e1640fd599</hash>
+        <hash alg="SHA-1">b23cc2ee59f2357b3926188de2efc0cde6f35aaa</hash>
+        <hash alg="SHA-256">2b2aaf6ac8ddb2400465735d778d767ea53e832fa1798ed6e0a5e0a0824a6d8a</hash>
+        <hash alg="SHA-512">9b31184804cedc99dedd01466ff09890377dca81c83ac72a30d8e5444b78cbb9fe6c576f60f1d138ca3ba53f765b319503b3627c87d3b799e033d9db0bb67793</hash>
+        <hash alg="SHA-384">5f1c347a962508807404a1da2b4f180c15238d7ca2321b1230a94bffb4d995700d54f859a3da6cd0d804fa9c68f63be9</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.79?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar">
@@ -589,8 +589,8 @@
       <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
       <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.79?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.79?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar"/>
       <dependency ref="pkg:maven/org.apache.velocity/velocity-engine-core@2.3?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
       <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar"/>
@@ -630,16 +630,16 @@
     </dependency>
     <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
     <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.79?type=jar">
-      <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.79?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar">
+      <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.79?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.79?type=jar">
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.79?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.79?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar">
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar"/>
       <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.79?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar"/>
     <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
     <dependency ref="pkg:maven/org.apache.velocity/velocity-engine-core@2.3?type=jar">
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.11?type=jar"/>

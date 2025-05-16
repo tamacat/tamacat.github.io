@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Feb 09 21:14:20 JST 2023
+https\://repo.maven.apache.org/maven2/.lastUpdated=1675944550289
+https\://tamacat.org/maven2/.lastUpdated=1675944860494
+http\://0.0.0.0/.error=Could not transfer artifact org.tamacat\:tamacat-taglib\:jar\:1.4 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [tamacat.org (http\://tamacat.org/maven2/, default, releases+snapshots)]
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1675944372391
+https\://repo.maven.apache.org/maven2/.error=

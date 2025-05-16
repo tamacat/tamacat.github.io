@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:03d40895-761a-41fd-b212-00e0e4199e80" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:e6d1aa7d-dbef-4955-8f51-e0115fdebece" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2023-08-26T18:07:24Z</timestamp>
+    <timestamp>2024-03-19T12:13:16Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -40,11 +40,11 @@
       <version>1.5</version>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">73203026b3091d2303c8caed0d230b7d</hash>
-        <hash alg="SHA-1">8af9545a94e5c765901ba555bd88bd3184697f10</hash>
-        <hash alg="SHA-256">532d41cff21cee3c9545f015c1f8e7a51607e7e3743dd6a9c1a34ff142766e19</hash>
-        <hash alg="SHA-512">f13d30e3c8cb421a21f0f8a46b8e2363242f4444764d65754d36fd9d73007a7f2eca93b6e6448095b42844f367f4f3d0b63e38f93cf427e79b038c6ef18abb96</hash>
-        <hash alg="SHA-384">c38cb2edbf6b26e0b695d7c5d59844a3ec6ac1e335586d6c8bfa43eb43a99482533ff24ca55a130fac61a0a9b8fa4327</hash>
+        <hash alg="MD5">824e95bac299571b5b288622110c1115</hash>
+        <hash alg="SHA-1">0cd718b69055f0a2e425e9f147bf6dba7b77baaa</hash>
+        <hash alg="SHA-256">f57ac430367f12f200829cf199f150ca5d5cede45709d9b858d3bf1c6d86c0fe</hash>
+        <hash alg="SHA-512">294cc94fca93f24832d8698dd4d633f6dbd2e0dab64403aacce7c080dfc996854e95d77778db45a258efb8d3291da3de6cc997df5c9b9096a45fab20bf5bbd57</hash>
+        <hash alg="SHA-384">f91282b04c5ec1d1b30faef751e43ed2833cfb4161795a48d0da0f8369cd22e6250da449e24017f474c4bfbc91a27549</hash>
       </hashes>
       <licenses>
         <license>
@@ -239,30 +239,31 @@
       <purl>pkg:maven/commons-logging/commons-logging@1.2?type=jar</purl>
       <externalReferences><reference type="website"><url>http://commons.apache.org/proper/commons-logging/</url></reference><reference type="build-system"><url>https://continuum-ci.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/LOGGING</url></reference><reference type="mailing-list"><url>http://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>http://svn.apache.org/repos/asf/commons/proper/logging/trunk</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar">
+    <component type="library" bom-ref="pkg:maven/commons-codec/commons-codec@1.16.1?type=jar">
       <publisher>The Apache Software Foundation</publisher>
       <group>commons-codec</group>
       <name>commons-codec</name>
-      <version>1.15</version>
-      <description>The Apache Commons Codec package contains simple encoder and decoders for
-     various formats such as Base64 and Hexadecimal.  In addition to these
+      <version>1.16.1</version>
+      <description>The Apache Commons Codec component contains encoder and decoders for
+     various formats such as Base16, Base32, Base64, digest, and Hexadecimal. In addition to these
      widely used encoders and decoders, the codec package also maintains a
      collection of phonetic encoding utilities.</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">303baf002ce6d382198090aedd9d79a2</hash>
-        <hash alg="SHA-1">49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d</hash>
-        <hash alg="SHA-256">b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63</hash>
-        <hash alg="SHA-512">da30a716770795fce390e4dd340a8b728f220c6572383ffef55bd5839655d5611fcc06128b2144f6cdcb36f53072a12ec80b04afee787665e7ad0b6e888a6787</hash>
-        <hash alg="SHA-384">05d0506283716472175d44c2a4766523397bf8a007c18848f9c9a61718cc8aa437f9cb4b91771037ab29a960860b62a0</hash>
+        <hash alg="MD5">6c5be822d8d3fa61c3b54c4c8978dfdc</hash>
+        <hash alg="SHA-1">47bd4d333fba53406f6c6c51884ddbca435c8862</hash>
+        <hash alg="SHA-256">ec87bfb55f22cbd1b21e2190eeda28b2b312ed2a431ee49fbdcc01812d04a5e4</hash>
+        <hash alg="SHA-512">bd33fd5340757ea0616a8c2a48760cfc9932f93b8e067701f4a122fd59735083468a016d8c0fd65973dd3fa4fc3537855e71a1fae7d14e1777e31ff1c47708ce</hash>
+        <hash alg="SHA-384">ee7f4c3e5c01cf77f4d82b09c358087738e6e79507ced9f2c82fdce3b32825bb62b2d66b30ef897e2972d3253478c525</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
+          <url>https://www.apache.org/licenses/LICENSE-2.0</url>
         </license>
       </licenses>
-      <purl>pkg:maven/commons-codec/commons-codec@1.15?type=jar</purl>
-      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
+      <purl>pkg:maven/commons-codec/commons-codec@1.16.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-codec/</url></reference><reference type="build-system"><url>https://github.com/apache/commons-parent/actions</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/CODEC</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://github.com/apache/commons-codec</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
       <publisher>Eclipse Foundation</publisher>
@@ -308,26 +309,26 @@
       <purl>pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar">
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar">
       <publisher>Eclipse Foundation</publisher>
       <group>com.sun.xml.bind</group>
       <name>jaxb-impl</name>
-      <version>2.3.8</version>
+      <version>2.3.9</version>
       <description>Old JAXB Runtime module. Contains sources required for runtime processing.</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">74dc1f4b4d34a50058ab80da0688f586</hash>
-        <hash alg="SHA-1">0d68006e5fbd47f7b88aa7b06c4ced74de52fa2d</hash>
-        <hash alg="SHA-256">a642cab235092078603bf448f22635a1c0fe5c06dfe8a36687520f875cc666dc</hash>
-        <hash alg="SHA-512">44248ea299db29fbd9bd93d0fba0977288e85b735a517641cecc3ed2ab14d65eda77cc99d08f63a733d17ddd2604cca7d55e1ad2f191ab3a781a5324d27372d3</hash>
-        <hash alg="SHA-384">b9a7ac0785c2ef462487084700470ac3198eeba4c6fcfd8380f14f48a822302d72d9973729785677fb7565b5b88aba31</hash>
+        <hash alg="MD5">f4530a59b9f0483413456195dcb3c88c</hash>
+        <hash alg="SHA-1">95076261a51690f95b29e09fd6ff9f8a90381af0</hash>
+        <hash alg="SHA-256">3ba42e1fe670bc9d04409f2493f5482dc96cac21caa11adb27b897e57386fef6</hash>
+        <hash alg="SHA-512">6950248e205ad3eb232e99a30d3652ebfe9f4dd60fe4c0dc9f962e92756ed1accaa1dbc005e867067bc7e47c435d143468065af26de9e791a6a17fedc7c33061</hash>
+        <hash alg="SHA-384">d005c4756e9ca7664f99a8272eaa2853ad9db50b8c530f8c8d5514481681e730f88b15f00f9ec0bf5e07e96ef7b1ab1f</hash>
       </hashes>
       <licenses>
         <license>
           <id>BSD-3-Clause</id>
         </license>
       </licenses>
-      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar</purl>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar</purl>
       <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
@@ -352,88 +353,88 @@
       <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
       <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.87?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-core</name>
-      <version>9.0.80</version>
+      <version>9.0.87</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">4be57ffddc135afaf55d5cab2b2e395b</hash>
-        <hash alg="SHA-1">55bd200b34d917428bc37165fb9a6d20a58357d5</hash>
-        <hash alg="SHA-256">db891459133cfc0f2053342df2ebb549936cc2e6335d7d9639e1b9ebea13d069</hash>
-        <hash alg="SHA-512">279d363a97fa2bb824af06f423df9b1b33ff89677239ec5410659a5faadd03a11e6f00945eb557104bfcf43db88bae88b5ac71b77cc287a1a24ee9ad496493a7</hash>
-        <hash alg="SHA-384">9fa7b2c4b58db0dda1a09c3867add7c511ae7be6663198d0f4b6d6eb16631475c8bcc84228453677823bba2d138d7d4a</hash>
+        <hash alg="MD5">5d5cf901d1eef80096a44e88e22bea8c</hash>
+        <hash alg="SHA-1">2b485cbc0acdf650dd00bd8fa855c62c902f518f</hash>
+        <hash alg="SHA-256">3e51cd60f7d8798b146729b414aac1349ed63fba40fc414da8d55630f04fa404</hash>
+        <hash alg="SHA-512">62ba19c959e293dabbcdce7ef0649e8342391d3cad2257d396c805932c9223f3a914d0596b2511f0f4e5fa7aeadb7bd8b7a9aaf7b97f5ba45cacd55c8742905f</hash>
+        <hash alg="SHA-384">d2af2ac2f1c1142ab6b4b85b85ce59ee9fc607aa38547389dbe75510300bd23e39eeeb1d8619413e2b18cf21a7e1643e</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.87?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.87?type=jar">
       <group>org.apache.tomcat</group>
       <name>tomcat-annotations-api</name>
-      <version>9.0.80</version>
+      <version>9.0.87</version>
       <description>Annotations Package</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">c3c0e1480d2f3412cde71451c2b1c985</hash>
-        <hash alg="SHA-1">208f08db4f672caf9021fc0296c523c3afb128c8</hash>
-        <hash alg="SHA-256">d8f7bc56b227aab5bc3efba36f112b7da38cee7d35ad563593af901f66260308</hash>
-        <hash alg="SHA-512">e0d2aebfb21e9ca0c467967d55cd4b7b44f8706db8486ac161f6446cffaa911ec14eb010bc460c10d7f27e470335c8ccf32549693b9aa312e2fe6e9e719b7d12</hash>
-        <hash alg="SHA-384">54db03e9d60100b4e4428c11d3baabd502b10b17292fe2a1aae571ed26ecb7be59513c3515ab66a5915ff97ee45c6e9b</hash>
+        <hash alg="MD5">645195f17981827f08409c024d275cd3</hash>
+        <hash alg="SHA-1">ad8a48b4cb463e4b2fcd64688b54e7f2dad5924a</hash>
+        <hash alg="SHA-256">a29ab8c8d1ccae45040692fb1eecb0ba968999f7367c3bb17e8da51b2de2eb77</hash>
+        <hash alg="SHA-512">53fb3652be059677274b652ea79125b3bf14d0e3a6794c4972d1f3876cc2d5f4af7d1ff2bcce8f11f9c13582959220a1901c2cbb5af86c9ff1c8ce87b52dbc89</hash>
+        <hash alg="SHA-384">ade28a7571596279ecc167b8df58089c5e397e043820c9a333b592f9a79427035634b541ced5005bf4c9cf66d2250e2b</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.87?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.87?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-jasper</name>
-      <version>9.0.80</version>
+      <version>9.0.87</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">7639b76fb8b38c160fe107c600e3b9c7</hash>
-        <hash alg="SHA-1">fc3dd6224b995d64b673545260e36bf9c83b86ac</hash>
-        <hash alg="SHA-256">83dd4f2e3d8b957123dffea66158194822d39351fe71049e41f7cf96e1f2fbe9</hash>
-        <hash alg="SHA-512">c581b84bb1ed7a7901381d3f05c65ad2ebfb1a6c34005d516968b649d5a9e81ec5b7232d8b1f73542bc6fa005163b987a4d4345bbd0c8260a1368177a4c5acb3</hash>
-        <hash alg="SHA-384">84d2b5f345424578b6116fa57a0a40ca7cf4ccd4ce0dd84c0b476c6cd8aff35091ff304a11c3510e9cdd6631b6731d5b</hash>
+        <hash alg="MD5">7bb0c2191271b5a081a8d2648170c48a</hash>
+        <hash alg="SHA-1">4fefbe4b4206680eef9474cc606fa69bd0c1e865</hash>
+        <hash alg="SHA-256">2760670484501004322fc61eb5831cbd1c798b2dce4af4799c610fb37aa21da6</hash>
+        <hash alg="SHA-512">2c8522e86759e309475f649a40f7ab6f1f8936cb5bd633eac223581a5f75d449d13fbb9e2714195e9e438a53862a1a1da53120ae246acc865819a43772c319da</hash>
+        <hash alg="SHA-384">0d40e5dd4952e6c85fdfd30cebf412d8f2a789bc21ccdffbbde42fcba27b14cc46dfa1bca0eee29f3cb85ca3e7686a45</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.87?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.87?type=jar">
       <group>org.apache.tomcat.embed</group>
       <name>tomcat-embed-el</name>
-      <version>9.0.80</version>
+      <version>9.0.87</version>
       <description>Core Tomcat implementation</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">1851d40fba51e9b5871b68e1640fd599</hash>
-        <hash alg="SHA-1">b23cc2ee59f2357b3926188de2efc0cde6f35aaa</hash>
-        <hash alg="SHA-256">2b2aaf6ac8ddb2400465735d778d767ea53e832fa1798ed6e0a5e0a0824a6d8a</hash>
-        <hash alg="SHA-512">9b31184804cedc99dedd01466ff09890377dca81c83ac72a30d8e5444b78cbb9fe6c576f60f1d138ca3ba53f765b319503b3627c87d3b799e033d9db0bb67793</hash>
-        <hash alg="SHA-384">5f1c347a962508807404a1da2b4f180c15238d7ca2321b1230a94bffb4d995700d54f859a3da6cd0d804fa9c68f63be9</hash>
+        <hash alg="MD5">9999fead6a9de999bf9ef36fcde34b4d</hash>
+        <hash alg="SHA-1">6b7687c35b95cf1d6b3560f6d6c5dbe72055095a</hash>
+        <hash alg="SHA-256">8990995e5d737a1ee39da81c75d963f84d46e2172bf58d14cdd7b5cf42449395</hash>
+        <hash alg="SHA-512">aae3ae1bf19efcfd046e674892ceb28990e1abb114c8635dd965f0dbab205ff62c17c6ca737a51140fd86e8be34a2ff9ba58dbf74d661c63306b7ebac6000ff2</hash>
+        <hash alg="SHA-384">3904d950bac7bd2d059a7d86a5157efa1eb7c50d9f5308dbabe3d4205733930013f324c780a617fc9534bcab56bcb2d5</hash>
       </hashes>
       <licenses>
         <license>
           <id>Apache-2.0</id>
         </license>
       </licenses>
-      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar</purl>
+      <purl>pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.87?type=jar</purl>
       <externalReferences><reference type="website"><url>https://tomcat.apache.org/</url></reference></externalReferences>
     </component>
     <component type="library" bom-ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar">
@@ -504,19 +505,19 @@
       <purl>pkg:maven/org.apache.commons/commons-lang3@3.11?type=jar</purl>
       <externalReferences><reference type="website"><url>https://commons.apache.org/proper/commons-lang/</url></reference><reference type="build-system"><url>https://builds.apache.org/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/jira/browse/LANG</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/commons-user/</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf?p=commons-lang.git</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar">
       <publisher>QOS.ch</publisher>
       <group>org.slf4j</group>
       <name>slf4j-api</name>
-      <version>2.0.7</version>
+      <version>2.0.12</version>
       <description>The slf4j API</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">403dffa46cdd2e3c82da19df4f394a4c</hash>
-        <hash alg="SHA-1">41eb7184ea9d556f23e18b5cb99cad1f8581fc00</hash>
-        <hash alg="SHA-256">5d6298b93a1905c32cda6478808ac14c2d4a47e91535e53c41f7feeb85d946f4</hash>
-        <hash alg="SHA-512">216d2cac27d501972c888f94dfa747d700b80d60813884b6ab4b12c6a3b17ed0c21a1d27e1aa4332c97c828f20039e3913d2763d7e1a3cef36ae4389a276e7a8</hash>
-        <hash alg="SHA-384">c25b39f418aa726ba8405dfd9b356131f89984e2ef5a55a724a2abf3b7c78443f671105835161d2414d602cf03da9f2d</hash>
+        <hash alg="MD5">86eb051f2e2d6497a3a57810c963a9d6</hash>
+        <hash alg="SHA-1">48f109a2a6d8f446c794f3e3fa0d86df0cdfa312</hash>
+        <hash alg="SHA-256">a79502b8abdfbd722846a27691226a4088682d6d35654f9b80e2a9ccacf7ed47</hash>
+        <hash alg="SHA-512">5bc0a61bd32b63ab7d44e210f1dcc3e4dc7417186ab8a2297f22edfa631513cc55b7fe3bb15eb0124b9a30dcfd4d168932bf3262cf6491feb2facbdfbe661e72</hash>
+        <hash alg="SHA-384">7c8d503d37899b577f39e5a3517b69034cad655e31d4b783313533bf49054f25b0ae87f8c32e4eb40677a53011e6bbce</hash>
       </hashes>
       <licenses>
         <license>
@@ -524,22 +525,22 @@
           <url>https://opensource.org/licenses/MIT</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar</purl>
-      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-api</url></reference></externalReferences>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar">
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-core@1.3.14?type=jar">
       <publisher>QOS.ch</publisher>
       <group>ch.qos.logback</group>
       <name>logback-core</name>
-      <version>1.3.11</version>
+      <version>1.3.14</version>
       <description>logback-core module</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">8cdedfc41c3c89657f97895f540de77b</hash>
-        <hash alg="SHA-1">1bfa5c3b4beec99259a6d0abf80eed50366761aa</hash>
-        <hash alg="SHA-256">ff0561a62350a8a2b880ae6940b2c55c2490af4affe30f52774c9906822b8783</hash>
-        <hash alg="SHA-512">5f96514475b546e7e6fbdd1cf55f9b7a391fb1b3a68282cb76120efa5587a473ddbf32a3ed0a32b1eb1895130cb9757e210e5228c9c97a412e19d7a049486152</hash>
-        <hash alg="SHA-384">f1d29d329bd736c8e3dabff8527e607b6b335136a79853a3831482bd253935239b084e6695d119a33d619c6c11ae9eff</hash>
+        <hash alg="MD5">f016f8ad4fa11803dc18fc83eb45badf</hash>
+        <hash alg="SHA-1">0436bd0d56730df756cff6d12d0f97df6f275e4a</hash>
+        <hash alg="SHA-256">9f53159af18a9d438bc398c970db3bb7e17ddb07b04bbb3b01dfe3454dd18862</hash>
+        <hash alg="SHA-512">92e34be5fe91cba764aa4c592e63bc3aa7410daca6213f84577e07fbfd645d63221d464cb760ba8b9bfe9fdf3d9981c4f8bcc1ec08908d213c0a7659dd04656e</hash>
+        <hash alg="SHA-384">f3016fd409adbdc874c24280bd949227ad98ca50d18a979e20efd2b992560433299b85084c003e8e6465e0d35db4d04b</hash>
       </hashes>
       <licenses>
         <license>
@@ -550,22 +551,22 @@
           <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
         </license>
       </licenses>
-      <purl>pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar</purl>
+      <purl>pkg:maven/ch.qos.logback/logback-core@1.3.14?type=jar</purl>
       <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/logback/logback-core</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.3.11?type=jar">
+    <component type="library" bom-ref="pkg:maven/ch.qos.logback/logback-classic@1.3.14?type=jar">
       <publisher>QOS.ch</publisher>
       <group>ch.qos.logback</group>
       <name>logback-classic</name>
-      <version>1.3.11</version>
+      <version>1.3.14</version>
       <description>logback-classic module</description>
       <scope>optional</scope>
       <hashes>
-        <hash alg="MD5">a77b993f6648d1b6893f539dc91155b6</hash>
-        <hash alg="SHA-1">8ec61104a17a23ea6a935f6321dcd92a5fb4abce</hash>
-        <hash alg="SHA-256">81f08fb615447033302a219edfa1a9c1d7ffbe6c16b933fe7c64ce56458f7c07</hash>
-        <hash alg="SHA-512">6c16dcecf84fe0edcdd36367ac99130eeca5e2539fa317c235e3cc5d12d3850c5ef076330213fc187a9b821057499863445b81e278efb160a41226395d1c3f7e</hash>
-        <hash alg="SHA-384">c94de08371ace78b7debc45c3f38c572bb21acbfd70c17c8844e6f68671ede03c9fb37418ff272c0bdd794e55bae2126</hash>
+        <hash alg="MD5">a5a99fb0ac35281208a2f7db7214fb35</hash>
+        <hash alg="SHA-1">a2f0045eae641a356b74afb0d3b85268181a93cf</hash>
+        <hash alg="SHA-256">f9b07a6dba4df3899381df7e597df450134e1879b1f3a757456b3cd1c8d94e2f</hash>
+        <hash alg="SHA-512">a406f784b137a5fcfac142b0bbcc0678d5704f8da59ebffbb1e08d662cf57efe805a965a3f113d02bac26dddd44f4a4e978bb8f20ae79b97fedaa8a94b9fd460</hash>
+        <hash alg="SHA-384">9df8a5f8d56396050f9d8513284be5ba4652e097e9c72929124bc8cb934c7195802c81f909fac47260b0d9ca4e8ef752</hash>
       </hashes>
       <licenses>
         <license>
@@ -576,7 +577,7 @@
           <url>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html</url>
         </license>
       </licenses>
-      <purl>pkg:maven/ch.qos.logback/logback-classic@1.3.11?type=jar</purl>
+      <purl>pkg:maven/ch.qos.logback/logback-classic@1.3.14?type=jar</purl>
       <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-classic</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/logback/logback-classic</url></reference></externalReferences>
     </component>
   </components>
@@ -586,25 +587,25 @@
       <dependency ref="pkg:maven/org.thymeleaf/thymeleaf@3.1.2.RELEASE?type=jar"/>
       <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar"/>
       <dependency ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar"/>
-      <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
+      <dependency ref="pkg:maven/commons-codec/commons-codec@1.16.1?type=jar"/>
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
-      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.87?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.87?type=jar"/>
       <dependency ref="pkg:maven/org.apache.velocity/velocity-engine-core@2.3?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
-      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar"/>
-      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.3.11?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.14?type=jar"/>
+      <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.3.14?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.tamacat/tamacat-core@1.5?type=jar">
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
-      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
       <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
-    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.8?type=jar">
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar">
       <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
       <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
     </dependency>
@@ -613,7 +614,7 @@
       <dependency ref="pkg:maven/ognl/ognl@3.3.4?type=jar"/>
       <dependency ref="pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar"/>
       <dependency ref="pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/ognl/ognl@3.3.4?type=jar">
       <dependency ref="pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar"/>
@@ -621,35 +622,35 @@
     <dependency ref="pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar"/>
     <dependency ref="pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar"/>
     <dependency ref="pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar"/>
-    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
     <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar"/>
     <dependency ref="pkg:maven/org.apache.httpcomponents/httpclient@4.5.14?type=jar">
       <dependency ref="pkg:maven/org.apache.httpcomponents/httpcore@4.4.16?type=jar"/>
       <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
-      <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
+      <dependency ref="pkg:maven/commons-codec/commons-codec@1.16.1?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/commons-logging/commons-logging@1.2?type=jar"/>
-    <dependency ref="pkg:maven/commons-codec/commons-codec@1.15?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar">
-      <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar"/>
+    <dependency ref="pkg:maven/commons-codec/commons-codec@1.16.1?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.87?type=jar">
+      <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.87?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.80?type=jar"/>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.80?type=jar">
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.80?type=jar"/>
-      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat/tomcat-annotations-api@9.0.87?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@9.0.87?type=jar">
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@9.0.87?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.87?type=jar"/>
       <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.80?type=jar"/>
+    <dependency ref="pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@9.0.87?type=jar"/>
     <dependency ref="pkg:maven/org.eclipse.jdt/ecj@3.26.0?type=jar"/>
     <dependency ref="pkg:maven/org.apache.velocity/velocity-engine-core@2.3?type=jar">
       <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.11?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.commons/commons-lang3@3.11?type=jar"/>
-    <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar"/>
-    <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.3.11?type=jar">
-      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.11?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.7?type=jar"/>
+    <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.14?type=jar"/>
+    <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.3.14?type=jar">
+      <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.3.14?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.12?type=jar"/>
     </dependency>
   </dependencies>
 </bom>

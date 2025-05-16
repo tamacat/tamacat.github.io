@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Sep 12 01:41:29 JST 2024
+tamacat-taglib-1.5.pom>=
+tamacat-taglib-1.5-cyclonedx.xml>=
+tamacat-taglib-1.5-cyclonedx.json>=
+tamacat-taglib-1.5.jar>=
+tamacat-taglib-1.5-sources.jar>=

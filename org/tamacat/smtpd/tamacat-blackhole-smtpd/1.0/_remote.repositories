@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Aug 02 11:44:43 JST 2024
+tamacat-blackhole-smtpd-1.0-sources.jar>=
+tamacat-blackhole-smtpd-1.0-cyclonedx.xml>=
+tamacat-blackhole-smtpd-1.0.jar>=
+tamacat-blackhole-smtpd-1.0-cyclonedx.json>=
+tamacat-blackhole-smtpd-1.0.pom>=
+tamacat-blackhole-smtpd-1.0-jar-with-dependencies.jar>=

@@ -1,0 +1,196 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:c9d07b0f-fe74-48d5-9595-93e2ffb7c893",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2024-09-11T16:41:27Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "org.tamacat",
+      "name" : "tamacat-taglib",
+      "version" : "1.5",
+      "licenses" : [ ],
+      "purl" : "pkg:maven/org.tamacat/tamacat-taglib@1.5?type=jar",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.tamacat/tamacat-taglib@1.5?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "GlassFish Community",
+      "group" : "javax.servlet",
+      "name" : "javax.servlet-api",
+      "version" : "3.1.0",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "79de69e9f5ed8c7fcb8342585732bbf7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3cd63d075497751784b2fa84be59432f4905bf7c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "af456b2dd41c4e82cf54f3e743bc678973d9fe35bd4d3071fa05c7e5333b8482"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "32f7e3565c6cdf3d9a562f8fd597fe5059af0cf6b05b772a144a74bbc95927ac275eb38374538ec1c72adcce4c8e1e2c9f774a7b545db56b8085af0065e4a1e5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8bf960fd053ef6ad1c3535824311f676b9ad537678b85f855dd5d6d726e391f8a7be9c9c76a8ae3ce8bfe671c1e2c942"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://servlet-spec.java.net"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://java.net/jira/browse/SERVLET_SPEC"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "users@servlet-spec.java.net"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://java.net/projects/glassfish/sources/svn/show/tags/javax.servlet-api-3.1.0"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "javax.servlet.jsp",
+      "name" : "javax.servlet.jsp-api",
+      "version" : "2.3.3",
+      "description" : "Java.net - The Source for Java Technology Collaboration",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f6676a5961328c41c5e722da5e48d047"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "81191ab80e342912dc9cea735c30ff4eddc64de3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "409a534d275ef0958a2c1692472da30e3706bfe6933d56c039376f53f13689b7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9ac69ebc00d00e5edb28302fdd515c8e678cad1c2cbacbad487b3d84c74827563fca378383061ce03b8d9ee50f99ced9418cc9d8d64e49eef32270232d660c8a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f9e54c75a0449a64501ec54f41bf834dd1131345666c48eada30e296f5c46695290088f1b0be6c8b13f719380722408a"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://javaee.github.io/javaee-jsp-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/javaee/javaee-jsp-api/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "dev@jsp.java.net"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/javaee-jsp-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.3?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.tamacat/tamacat-taglib@1.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+        "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet/javax.servlet-api@3.1.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.servlet.jsp/javax.servlet.jsp-api@2.3.3?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

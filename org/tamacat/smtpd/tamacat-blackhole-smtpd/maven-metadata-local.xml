@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.tamacat.smtpd</groupId>
+  <artifactId>tamacat-blackhole-smtpd</artifactId>
+  <versioning>
+    <release>1.1-b20250407</release>
+    <versions>
+      <version>1.0</version>
+      <version>1.0-b20250107</version>
+      <version>1.0-b20250402</version>
+      <version>1.1-b20250407</version>
+    </versions>
+    <lastUpdated>20250407133400</lastUpdated>
+  </versioning>
+</metadata>

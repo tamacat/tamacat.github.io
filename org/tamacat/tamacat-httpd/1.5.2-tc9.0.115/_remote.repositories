@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Jan 25 20:10:29 JST 2026
+tamacat-httpd-1.5.2-tc9.0.115-cyclonedx.json>=
+tamacat-httpd-1.5.2-tc9.0.115-sources.jar>=
+tamacat-httpd-1.5.2-tc9.0.115.jar>=
+tamacat-httpd-1.5.2-tc9.0.115-cyclonedx.xml>=
+tamacat-httpd-1.5.2-tc9.0.115-jar-with-dependencies.jar>=
+tamacat-httpd-1.5.2-tc9.0.115.pom>=

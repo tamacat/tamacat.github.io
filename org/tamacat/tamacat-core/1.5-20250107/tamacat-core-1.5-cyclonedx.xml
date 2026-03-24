@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:4639de3f-0443-46b5-ae0f-32422ae7f0f4" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:afbe172e-37ab-4ba3-ad84-ce0d0a5ff96d" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2026-03-24T11:30:11Z</timestamp>
+    <timestamp>2025-01-07T11:07:25Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -214,19 +214,19 @@
       <purl>pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.23.1?type=jar</purl>
       <externalReferences><reference type="website"><url>https://logging.apache.org/log4j/2.x/log4j/log4j-1.2-api/</url></reference><reference type="build-system"><url>https://github.com/apache/logging-log4j2/actions</url></reference><reference type="distribution"><url>https://logging.apache.org/logging-parent/latest/#distribution</url></reference><reference type="issue-tracker"><url>https://github.com/apache/logging-log4j2/issues</url></reference><reference type="mailing-list"><url>https://lists.apache.org/list.html?log4j-user@logging.apache.org</url></reference><reference type="vcs"><url>https://github.com/apache/logging-log4j2</url></reference></externalReferences>
     </component>
-    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar">
+    <component type="library" bom-ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar">
       <publisher>QOS.ch</publisher>
       <group>org.slf4j</group>
       <name>slf4j-api</name>
-      <version>2.0.17</version>
+      <version>2.0.16</version>
       <description>The slf4j API</description>
       <scope>required</scope>
       <hashes>
-        <hash alg="MD5">b6480d114a23683498ac3f746f959d2f</hash>
-        <hash alg="SHA-1">d9e58ac9c7779ba3bf8142aff6c830617a7fe60f</hash>
-        <hash alg="SHA-256">7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832</hash>
-        <hash alg="SHA-512">9a3e79db6666a6096a3021bb2e1d918f30f589d8de51d6b600f8ebd92515a510ae2d8f87919cc2dfa8365d64f10194cac8dfa0fb950160eef0e9da06f6caaeb9</hash>
-        <hash alg="SHA-384">6ea24f814a9b6ece428cfd0535e2f3b8927005745ef61006b50fdb5a90126ee5ea05650155382b3b755c5bce38ef3944</hash>
+        <hash alg="MD5">c8de8f5d740584cb24b5652cfba8b3c4</hash>
+        <hash alg="SHA-1">0172931663a09a1fa515567af5fbef00897d3c04</hash>
+        <hash alg="SHA-256">a12578dde1ba00bd9b816d388a0b879928d00bab3c83c240f7013bf4196c579a</hash>
+        <hash alg="SHA-512">91c2e7b30f24649bb3edfc7f138c2b7dc715ad36963af159defb80a71205eb7e4c5bcc80d779ef993b567a56724064f190c93985f32665a8df85198a03a2f1bb</hash>
+        <hash alg="SHA-384">ed0cc7ad67343b9fe4df03ea534025bf9d90c112b33cd8920f29890d923c349b69820c9c42b9e8882047af848b74f99d</hash>
       </hashes>
       <licenses>
         <license>
@@ -234,7 +234,7 @@
           <url>https://opensource.org/licenses/MIT</url>
         </license>
       </licenses>
-      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar</purl>
+      <purl>pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar</purl>
       <externalReferences><reference type="website"><url>http://www.slf4j.org</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api</url></reference></externalReferences>
     </component>
   </components>
@@ -246,7 +246,7 @@
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.23.1?type=jar"/>
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.23.1?type=jar"/>
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.23.1?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
       <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
@@ -263,10 +263,10 @@
     </dependency>
     <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-slf4j-impl@2.23.1?type=jar">
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.23.1?type=jar"/>
-      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
+      <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-core@2.23.1?type=jar"/>
     </dependency>
-    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"/>
+    <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.16?type=jar"/>
     <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-1.2-api@2.23.1?type=jar">
       <dependency ref="pkg:maven/org.apache.logging.log4j/log4j-api@2.23.1?type=jar"/>
     </dependency>

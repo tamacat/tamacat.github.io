@@ -1,10 +1,10 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Mar 24 20:30:12 JST 2026
+#Tue Jan 07 20:07:26 JST 2025
 tamacat-core-1.5.jar>tamacat.org=
-tamacat-core-1.5-cyclonedx.xml>=
 tamacat-core-1.5.pom>=
+tamacat-core-1.5-cyclonedx.xml>=
 tamacat-core-1.5.pom>tamacat.org=
 tamacat-core-1.5-sources.jar>tamacat.org=
 tamacat-core-1.5-sources.jar>=
-tamacat-core-1.5.jar>=
 tamacat-core-1.5-cyclonedx.json>=
+tamacat-core-1.5.jar>=

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom serialNumber="urn:uuid:912f9dcd-f304-49df-aba9-6437d846c81c" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2026-03-24T11:30:34Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.9</version>
+        <hashes>
+          <hash alg="MD5">8e595cdb67f17e4b41e046456970591d</hash>
+          <hash alg="SHA-1">69e8ca804520d09ce4657e7235bae84d01cbffa6</hash>
+          <hash alg="SHA-256">aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8</hash>
+          <hash alg="SHA-512">1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b</hash>
+          <hash alg="SHA-384">b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/org.tamacat/tamacat-dao@1.6.1?type=jar">
+      <group>org.tamacat</group>
+      <name>tamacat-dao</name>
+      <version>1.6.1</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.tamacat/tamacat-dao@1.6.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://tamacat.org/</url></reference><reference type="vcs"><url>https://github.com/tamacat/tamacat-dao</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.tamacat/tamacat-core@1.5?type=jar">
+      <group>org.tamacat</group>
+      <name>tamacat-core</name>
+      <version>1.5</version>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1e861e9e5d2d11fd860301ccd66010f1</hash>
+        <hash alg="SHA-1">f4de00307cddb4f36eaf994aaeb27867bdb5ba35</hash>
+        <hash alg="SHA-256">f900472d8a33f9ebc84820fa8db215232e3c726b5c5a2c6b02cfb0a56d6fa0c9</hash>
+        <hash alg="SHA-512">624623ac34d0d66e866a54da2f25502027407d94dc812dd79f07ac0590c1050b3e99c80b68e7bb5b78860cd7c62c979e3e338650a6c0c0edcdd049f146a9bdba</hash>
+        <hash alg="SHA-384">66a891dcfc0599bfa51d2b1bb6ab0037f1449cec7e0a685adb6ab458377482e69d24b4788d7484856e52c6b5d76d629e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.tamacat/tamacat-core@1.5?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://tamacat.org/</url></reference><reference type="vcs"><url>https://github.com/tamacat/tamacat-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.xml.bind</group>
+      <name>jakarta.xml.bind-api</name>
+      <version>2.3.3</version>
+      <description>Jakarta XML Binding API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">61286918ca0192e9f87d1358aef718dd</hash>
+        <hash alg="SHA-1">48e3b9cfc10752fba3521d6511f4165bea951801</hash>
+        <hash alg="SHA-256">c04539f472e9a6dd0c7685ea82d677282269ab8e7baca2e14500e381e0c6cec5</hash>
+        <hash alg="SHA-512">adf6436a7a9dc6f64b97127861d7a89b78e82bea67f72bda800ef285163adcd84dbf006f679108a2a8c2eed013e0b771da2354087e0845479ff2b6318b881442</hash>
+        <hash alg="SHA-384">bad8b9f52bf7a7e1d3974cb305a69c093fb32d2131539c18d34e471e3ec32bdd9dd136bb4b38bb14d84e99c562f208c7</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaxb-api/jakarta.xml.bind-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-api.git/jakarta.xml.bind-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.activation</group>
+      <name>jakarta.activation-api</name>
+      <version>1.2.2</version>
+      <description>Jakarta Activation API jar</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1cbb480310fa1987f9db7a3ed7118af7</hash>
+        <hash alg="SHA-1">99f53adba383cb1bf7c3862844488574b559621f</hash>
+        <hash alg="SHA-256">a187a939103aef5849a7af84bd7e27be2d120c410af291437375ffe061f4f09d</hash>
+        <hash alg="SHA-512">e3d846ff5f62ad9fef514f0726846c63d4aa74b2bb8f60c76258dba37701f83ae75872401071bf40da40697d43a8a6e36d08fa4ef39fe70797fb6f2b1712599f</hash>
+        <hash alg="SHA-384">3e25702596eca7dd48f904b3985d64b4b394d162d3884a907d8b2ee647542808713a42a02f0eeff2c07518a206cc91cf</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-impl</name>
+      <version>2.3.9</version>
+      <description>Old JAXB Runtime module. Contains sources required for runtime processing.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">f4530a59b9f0483413456195dcb3c88c</hash>
+        <hash alg="SHA-1">95076261a51690f95b29e09fd6ff9f8a90381af0</hash>
+        <hash alg="SHA-256">3ba42e1fe670bc9d04409f2493f5482dc96cac21caa11adb27b897e57386fef6</hash>
+        <hash alg="SHA-512">6950248e205ad3eb232e99a30d3652ebfe9f4dd60fe4c0dc9f962e92756ed1accaa1dbc005e867067bc7e47c435d143468065af26de9e791a6a17fedc7c33061</hash>
+        <hash alg="SHA-384">d005c4756e9ca7664f99a8272eaa2853ad9db50b8c530f8c8d5514481681e730f88b15f00f9ec0bf5e07e96ef7b1ab1f</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.activation</group>
+      <name>jakarta.activation</name>
+      <version>1.2.2</version>
+      <description>Jakarta Activation</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">0b8bee3bf29b9a015f8b992035581a7c</hash>
+        <hash alg="SHA-1">74548703f9851017ce2f556066659438019e7eb5</hash>
+        <hash alg="SHA-256">02156773e4ae9d048d14a56ad35d644bee9f1052a791d072df3ded3c656e6e1a</hash>
+        <hash alg="SHA-512">8bd94a4370b827e3904f31253b022e5c1851896d3b616ca7daebfef259238cedc56d4ced32c74f24a13c3e2295b0ea012af5d04656b7f713cc53a2f18d5e2cf7</hash>
+        <hash alg="SHA-384">1cb0aff8b73ba52a9931b2cf13c75a1ce6665fb826bf97ede66db75c532136aa189fb53a1925e62b6eef572309ef3b9a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaf/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaf/jakarta.activation</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/javax.json/javax.json-api@1.1.4?type=jar">
+      <publisher>Oracle</publisher>
+      <group>javax.json</group>
+      <name>javax.json-api</name>
+      <version>1.1.4</version>
+      <description>API module of JSR 374:Java API for Processing JSON</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6128da383f9a4a45593650fc263a0998</hash>
+        <hash alg="SHA-1">c8efa3cfaeee2b05c2dfd54cba21548a081b1746</hash>
+        <hash alg="SHA-256">0bdb79a0a5e0cce2d8d2d339ad53453cdf90045fe34c5e4b19b064bb1aee5876</hash>
+        <hash alg="SHA-512">5daa6155f1a9cf34657ed3b0163109dd550a3a8f1ab6b92cdbbe6473dcd6ba77a353272c17546d4f788b87abd5fd3a332a725a6f1b5f99c311dc05f851de2e3e</hash>
+        <hash alg="SHA-384">67ebbd3a88e00f9723520fa70a63868e0b30f8cc63305a8c5777cea4b4a52b26818dcde9b8e8408b35a98d61b7bd8089</hash>
+      </hashes>
+      <licenses>
+        <expression>(CDDL-1.1 OR GPL-2.0-only)</expression>
+      </licenses>
+      <purl>pkg:maven/javax.json/javax.json-api@1.1.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://javaee.github.io/jsonp</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/javaee/jsonp/javax.json-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish/javax.json@1.1.4?type=jar">
+      <publisher>Oracle</publisher>
+      <group>org.glassfish</group>
+      <name>javax.json</name>
+      <version>1.1.4</version>
+      <description>Default provider for JSR 374:Java API for Processing JSON</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ac67218fb9716fec512be8d0d877bde2</hash>
+        <hash alg="SHA-1">943f240a509d3c70b448a55c6735591ecbd37c88</hash>
+        <hash alg="SHA-256">17fdeb7e22375a7fb40bb0551306f6dcf2b5743078668adcdf6c642c9a9ec955</hash>
+        <hash alg="SHA-512">63f45ca81a86cce050a3096ed6d7eb7e6db7a9251095abfc7badc956e5d0d8f59ffb880b6ade8f461e655cbeac324c7a3c5a01af6e30639a9f0cb8c807552f9d</hash>
+        <hash alg="SHA-384">afdfb09bce2bf863e68774ed5a66ca36927cb2e8da04c9f1946999528c9e253af3ee2d32c887660fd7a1076b906cd23e</hash>
+      </hashes>
+      <licenses>
+        <expression>(CDDL-1.1 OR GPL-2.0-only)</expression>
+      </licenses>
+      <purl>pkg:maven/org.glassfish/javax.json@1.1.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://javaee.github.io/jsonp</url></reference><reference type="distribution"><url>https://maven.java.net/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/javaee/jsonp/javax.json</url></reference></externalReferences>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.tamacat/tamacat-dao@1.6.1?type=jar">
+      <dependency ref="pkg:maven/org.tamacat/tamacat-core@1.5?type=jar"/>
+      <dependency ref="pkg:maven/javax.json/javax.json-api@1.1.4?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish/javax.json@1.1.4?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.tamacat/tamacat-core@1.5?type=jar">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar">
+      <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@1.2.2?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@2.3.9?type=jar">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@2.3.3?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.activation/jakarta.activation@1.2.2?type=jar"/>
+    <dependency ref="pkg:maven/javax.json/javax.json-api@1.1.4?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish/javax.json@1.1.4?type=jar"/>
+  </dependencies>
+</bom>

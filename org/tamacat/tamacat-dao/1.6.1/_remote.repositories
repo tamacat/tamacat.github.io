@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Mar 24 20:30:35 JST 2026
+tamacat-dao-1.6.1-cyclonedx.json>=
+tamacat-dao-1.6.1.jar>=
+tamacat-dao-1.6.1.pom>=
+tamacat-dao-1.6.1-sources.jar>=
+tamacat-dao-1.6.1-cyclonedx.xml>=

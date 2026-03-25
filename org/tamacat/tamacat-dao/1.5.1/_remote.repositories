@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Mar 25 09:32:55 JST 2026
+tamacat-dao-1.5.1.jar>=
+tamacat-dao-1.5.1.pom>=
+tamacat-dao-1.5.1-sources.jar>=

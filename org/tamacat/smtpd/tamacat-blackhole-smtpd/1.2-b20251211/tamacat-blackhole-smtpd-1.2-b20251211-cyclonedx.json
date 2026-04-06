@@ -1,0 +1,3576 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:ff04b994-4ae7-440f-aa2c-a9d4dab63721",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2025-12-11T03:09:59Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "org.tamacat.smtpd",
+      "name" : "tamacat-blackhole-smtpd",
+      "version" : "1.2-b20251211",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.tamacat.smtpd/tamacat-blackhole-smtpd@1.2-b20251211?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://tamacat.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/tamacat/tamacat-blackhole-smtpd.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.tamacat.smtpd/tamacat-blackhole-smtpd@1.2-b20251211?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "mock-smtp-server",
+      "version" : "3.4.0",
+      "description" : "Provide a standalone mock SMTP server that could be configured over HTTP. Dockerized it can be used for advanced error testing for SMTP clients.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fc7704fa96239a7d8c1c8c111753443c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d4633273048c817958fa1759d4924c48fc6b8795"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "937d657d8bbce2b3ca3521a3eeb7ed33803d4aa21153f3a1d006abff84a95f8c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0e78992efd1ea30cb0a71585a29be0729bd79cbd1c9dbc06b5e771621d2a2df4a27b1d542820b92100ad15eef617bd8f7c71201036c5104202e67f1cef88e1a4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "87c3e325769e08c19d4cafa0abd3e28751a664f45ad3d3ca5a9f7904197304461bfe571c2ef585ae7dc45af87cbd2519"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e0244ba383b99d2612894515197f73d2469e535018e3758caac0db1ae7cb237bb1ed39ac138ecba5efdb39baa6cd3eca"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8d09935bbb81ab30edcde841150e832d9e8d07c7ec664f940383bc25f8268d82"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3570c5068e818cfabe7ac00da4739fdc160c607f7e66f98ca0cd7b70b45d8a76a82fc4ce399fe194d65fd7398bb3ebbedaeb3df344f3beb2241056bc4c6b606a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/mock-smtp-server@3.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/server/mailet/mock-smtp-server/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JAMES"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://git-wip-us.apache.org/repos/asf/james-project.git/james-server/mailet/mock-smtp-server"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/mock-smtp-server@3.4.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "james-core",
+      "version" : "3.4.0",
+      "description" : "Provides core domain objects for Email concepts",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "839bed9940e0b5a820a9bc6f7411f274"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8b6966128e57f3e421a4c2a7ea331bdf31ffaefa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "916f6b4bafc0575d64d782f93e411efcf42507cff9b67b7825ee76623f02316b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c27a1a007e515fb9e7fefb42181ff9385d763339bd19adeeb2ade9361aa750d71e476ad901c7efed75d68c95c8b875fd0f79fe984d1456dac9b9d41052349b8a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a651a20f23bdbda9790acd3df05989bc3f46833961091e4aae9d04ab40a5aa014c8d6ac78c71432afb57d438dd28a4a4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6a0d83c813efd1be645aad8014db94e720b6635937fd80ddc465302a246080d5f800b7ab385220f08f2ad7ed16e3c38f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fbdedf6bc54aaf8948af7d97a0638b5c937b59ebc76d69e7aabd4a2a0a8cf836"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "57c3c6d34cd089a301b313389aa2e5c52f93a7a7d97223190c24317c3f2ad2938d16674f368a13e47cf5513b4ac73bbacfe9d85439f66713c2f283ac38284990"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/james-core@3.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/james-core/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JAMES"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://git-wip-us.apache.org/repos/asf/james-project.git/james-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/james-core@3.4.0?type=jar"
+    },
+    {
+      "group" : "com.github.fge",
+      "name" : "throwing-lambdas",
+      "version" : "0.5.0",
+      "description" : "Wrappers for methods/interfaces/lambdas throwing exceptions for use in functional interfaces",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "46e680555a50c13dcd09b5160fdaca64"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "650efe632c1ef5bc472a507ef95db661bfc01a52"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "3df6f6c4adfc5bc26b598bc35a65a381df91a1a2b9bab8110fbda68d6afaa91f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "141919c9f5780b9da1674529d7c8d953366543af2d79aa6b48dc71398f6fa0a91cd37b24a918f87f4dd6c83399d3d45783761cb036ae79cd457768099dd62d51"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "74c0e1d0ce2c3cd912d7734453d080f35ebffdbe27361e3e608e8fb1de23e66da285b5db0ceef0fe2636df3c1d21dfc2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f6a16fbe92a38acc9ed3e9fa368067e4065edd020397c90ea12451eb53434e467e84be1fbe42041322d74eb0f2a96a4f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6953cc03e43026fe0ca12fd6f693b35f16593415cad550ee59cf8f0d165441db"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d591e828e51afe0d6a5f36a32bb25460d8f10d8c23e112e7f06bb267cdedbfb5177e5316ef52ff16826b0371ad36c6f7695a82d81418d6c48dc6c74ffa5a7653"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "LGPL-3.0-or-later"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/fge/throwing-lambdas"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar"
+    },
+    {
+      "group" : "com.github.steveash.guavate",
+      "name" : "guavate",
+      "version" : "1.0.0",
+      "description" : "Guavate is a tiny library to help bridge the gap between gauva and java8 while the Guava team figures out what they are going to release",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "889ac296f176fd8b614363c3904977ef"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bfbe4a9e17ac8c75ace48754baef2eea68c1c78d"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1de320e8361df04fe484d07cedd400d5ad03a97ca85e285b4af1ce03d10732fc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "64a7e9d514b77db88763942b578bf530688c36a72a78ca784bf3d38a9dc2dae5329c420c82482c5b39e5f24ed0d8053c449c72c59418a3ef15cd868e22768f27"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f4db5961d6c4299a64217295f2102be338f6b5b57d373cf8a0a8b44b01c498d3bde411e742e0e3f3929c44f58599c5da"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "088670d51ea90d453cfca92a365bf622335b63c99addd5d522eb769685df1ab921725cdf0b97704346295fb960dd1267"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e3546bd39484ea6dcc7d13a13dfa879715fdcb2b7d2a88d5237e7753273e2074"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bd4dfbd61f1674e247864b7c9b4e3bb1ab8512a7c4f916a798fa8493256e5d6f8e873ac997d339d837d0b318399a6cebc1c681d9199965b2b64392144cbd141f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.github.steveash.guavate/guavate@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/steveash/guavate"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.github.steveash.guavate/guavate@1.0.0?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "com.sun.activation",
+      "name" : "javax.activation",
+      "version" : "1.2.0",
+      "description" : "JavaBeans Activation Framework",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "be7c430df50b330cffc4848a3abedbfb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "bf744c1e2776ed1de3c55c8dac1057ec331ef744"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "993302b16cd7056f21e779cc577d175a810bb4900ef73cd8fbf2b50f928ba9ce"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b4cbdd8fd1703e4b2e1e691db78fbcf2232d836f740d1821c4c191a14f9472508e27a40d06e4b6b153964af68032959c22945ba169a0ca4018b7748162f420a6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7e64f03db2d4f9bacde713ca8aadfcf55e327d92b3cfa54b8cb2f2ffa0cc478d3c7e16f23230ae8266f0dace035142d4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b41aa6abfccc16e1f21760b4b3dbec7422f917fcd0c072d109c3024b1c40793820820940dfe07bfa50e00b47c3a0d504"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ab6207acdd72036b3a5c6e647776b7466e089212602962d87eeb2ac1845508a1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e9fea84495f286e0f0ec1de6d002cae9e4676b0d2a9ac4706d155ac6d5ed515a76f3fcf0b8c22161f3cb456e048cce9171e3e42edc83888776173c8e2004a035"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://java.net/all/javax.activation/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/javaee/activation/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/activation/javax.activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "com.sun.mail",
+      "name" : "javax.mail",
+      "version" : "1.6.2",
+      "description" : "JavaMail API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0b81d022797740d72d21620781841374"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "935151eb71beff17a2ffac15dd80184a99a0514f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "45b515e7104944c09e45b9c7bb1ce5dff640486374852dd2b2e80cc3752dfa11"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d76243093d93c556ae399ce9b65ea35bc5a7e12703110108cf8eaa314d8f9b094034dd530438189775f61f0994727cac6f68efb8eab2f13349922b08eb00d4ec"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "44300db745c6a065b5ca907e04d06bc42e42d4bf59470b24d2c40f889cf8fc79f0793997321874b2c25bc269900f9c51"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "4884616293856fe9d2ed2c6bb838f32d645ccab65a05b949351e6d93d6ed9ea408c8666ef17e19bd033c25545bafb490"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "905d9b5869f8ee5ad4b1027293beb5af5051aa2b929f52500611beedd2d5c992"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bec15cc6423179fb27e01c149e9c761a5cc98844e47f2182101d69f84736a85390da487eef7cc2dca94992c14d6ba7fe3d5833d2ad554731bec439ef11d547d8"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://javaee.github.io/javamail/javax.mail"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/javaee/javamail/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/javaee/javamail/javax.mail"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "james-server-jetty",
+      "version" : "3.4.0",
+      "description" : "Apache James Mail Server",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8350771440e77d8c8b5d9fb197e1061d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3c431ce4dea4975b329a7045b06e482450da559b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "599c021f53be90eadc9cac21e02d3ee91be0addbab1e8aa416095b3d9979b423"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d8520ee69b56b06656a253ef76de3a2b5bee2aaa52aa100b91a249b19d3d12382b700a6864bd2ed987a847e50872b2dafe7851e10f167b16c882de858a9714a3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f11bf17f65690911b0277695c75a013182c4de609f54b865bd67650fbddd00355d9a866f954e8b97de502cba301e3710"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e50dcb25dc4dab52285153df87bf0fbc9d13b613e7285e453cd13af65a1f38687aa0fabe2f709caa9d6c1f23a82b47c6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5fbc341641640774afb1d2ecb572ccd6c1961ad2cffca7df1120f791b4a2db3b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d9c3e8128410522ca2e84c43ff9f1c55134e5b4524bdec7ba92f93ea20d8a7e1c7a79762860fbec691ca46e0cdc3dac04ca70f02e18070d3b609e784fc35fe4d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/james-server-jetty@3.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/server/james-server-jetty/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JAMES"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://git-wip-us.apache.org/repos/asf/james-project.git/james-server/james-server-jetty"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/james-server-jetty@3.4.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "james-server-util",
+      "version" : "3.4.0",
+      "description" : "Apache James Mail Server",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b280550b3c4fdb345950eebb8951caa7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d18f4bb008fc9985a4c5452a9c73d11d681153ab"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "25c3eef9217b9dee13681cedd0d332a26aaa4de286ba9213779033e967fde157"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b440ffe1e862fcf8d95af5b4922ee852b2c146b00d6f25e70fa9223795f436454c0fa601c93e08a77117be31ce023c68243ece5bdcd5c830cb59616beffccfb5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "49b221dc79ae60cc445567eb2bb91ec01f51a5596ad280b06df99d1feb9de617f288b7c65140adb617d15cd461c5770c"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a8c20b0f45bcb48362f0d020606ddde053ba229da3d874ab080afd3c5b155c02b712c0218ff5fabf6d80bf676964a19d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d1ae4b2215b83d79cafc32f58e684c93fdba620b2e5e842f0ea24bae146c50cc"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "28a462381e8d45e4ee37117db0228b03008990f7ff4ee08919dc887286eba751133e05b0dcd7d4045b03920caa1f966ae92efc768bf7f417d769a309921eaa32"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/james-server-util@3.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/server/james-server-util/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/JAMES"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/james-server-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://git-wip-us.apache.org/repos/asf/james-project.git/james-server/james-server-util"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/james-server-util@3.4.0?type=jar"
+    },
+    {
+      "group" : "com.ibm.icu",
+      "name" : "icu4j",
+      "version" : "64.2",
+      "description" : "International Component for Unicode for Java (ICU4J) is a mature, widely used Java library providing Unicode and Globalization support",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "56a4015e1362c79dee5bd06feabc3116"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1d2b0ed49ba380d0c69c0a912a9909c1dbcc3d7c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ec5a7d92495a2c0f0a09506aef935cca6a68ce8ac18fbae105381a38288127e3"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4b41e2d696fefd482846ee24d75e8f812de5b8cf90d0953541944f83527fac367dcb0c05701dc1de0a6e085d50c341a009a739e08dcb8524e9555c42dafe7419"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fb4b8f20207f0b7246b618995fc62857df7bb28ba92a0db4da3bcf264db65491bc0b2532a0ad2a4b2aabcd5f284f2085"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6205fa2f8bcc42dd95a698db192478ea80ff7fc5074b981314c5e91cc6ef78b5a18b893e6a8a10fe72d58a09d555bdb6"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ed03e4f95ff822f1e7d2f1e9407efa40206b17d08dac76b618fc1509e823dbf0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "322d553a2591141ae77566d8a67acffc5936763ca12a5b68695ef78c52131511a7d64861c5e9d5b3f73947ef934c656be31f14dfcc351d2f497ee3dd292ba865"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "Unicode/ICU License",
+            "url" : "https://raw.githubusercontent.com/unicode-org/icu/master/icu4c/LICENSE"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.ibm.icu/icu4j@64.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://icu-project.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://unicode-org.atlassian.net/projects/ICU"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://sourceforge.net/mailarchive/forum.php?forum_name=icu-support"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/unicode-org/icu"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.ibm.icu/icu4j@64.2?type=jar"
+    },
+    {
+      "publisher" : "reactor",
+      "group" : "io.projectreactor",
+      "name" : "reactor-core",
+      "version" : "3.2.11.RELEASE",
+      "description" : "Non-Blocking Reactive Foundation for the JVM",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "35add00a69276e427ad81100fe666121"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0cb0bab6a6f9878e04e67088f5437b09012049c7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b991ab346529a86349cf7ce6495422400781016339028d2b062f80d472c36c96"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c88015f1416d71bef3efdd674e1fcd56e12558370f55533b794ef3cccd825cb568e27f7f62b3065922a2ffebf5c3ba26167a65b864a3874f3ae64b2af7149c68"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9ed99506540241d93a24cea045fec4880049b0c2270120f1be0413485867b1340e6b3c7edf9f92566d3c1429f33631b1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8e9546a0b17688cd42944473f3743c454641e40bb409763028e45b435e3362d43af6e5f99ebad46c750f8085f816b35d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "98e50ff9d978a7fa5dad9224dbf79c3d67fafba0de915f17a6101121a4f812cd"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "71336f21aeab24aa5260e10a776a11f3f484a5768a943694bae15351d1dcb493f02b956d30730dc29bdd39e665b978618cf60a57c12c3838bb8d748af63bfd22"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/io.projectreactor/reactor-core@3.2.11.RELEASE?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/reactor/reactor-core"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/reactor/reactor-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/reactor/reactor-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/io.projectreactor/reactor-core@3.2.11.RELEASE?type=jar"
+    },
+    {
+      "group" : "org.reactivestreams",
+      "name" : "reactive-streams",
+      "version" : "1.0.2",
+      "description" : "A Protocol for Asynchronous Non-Blocking Data Sequence",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "022ff8ca0101daeb35c8df9b120ff99e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "323964c36556eb0e6209f65c1cef72b53b461ab8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cc09ab0b140e0d0496c2165d4b32ce24f4d6446c0a26c5dc77b06bdf99ee8fae"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "873ad9eaf57ab70d9d47a99b12ecdbad60ba81e38c0961262e92f48b2a046ef0e76dafbf76f5766410f406b1155cde94622062cd657d29b0b3ce157f8de0a082"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6e5860dedc6a6ffd4dd8e7acbdfe655c34acb36f9a98351223232214019c304bac33fcae9c86dd2c980b410e3dc9afb7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e1c6e73c4bd681d6eabb8bf5bb2627dd9ea23abc3b00f6ff066dbc5111c173dd687199a1e8b72677c1f4f265fda716ab"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d0b06ee9e1d1229cd53a532cb6fde41e37112f3f898287c329ee3253692744cc"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ea12a0144462157973925b78500cb26376b326f51ff8e738226389277b79b118def4c1b7fc189531bcebaf17cc6d8317e31c6ce88a1b197b65a7ddafb45a4d67"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CC0-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.reactive-streams.org/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.2?type=jar"
+    },
+    {
+      "group" : "javax.inject",
+      "name" : "javax.inject",
+      "version" : "1",
+      "description" : "The javax.inject API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "289075e48b909e9e74e6c915b3631d2e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6975da39a7040257bd51d21a231b76c915872d38"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e126b7ccf3e42fd1984a0beef1004a7269a337c202e59e04e8e2af714280d2f2d8d2ba5e6f59481b8dcd34aaf35c966a688d0b48ec7e96f102c274dc0d3b381e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ac04c9f03ccbe35a25deb8b50280a0ca01dbe6aff0dd795d55af6112bfe3cd5817eb82f32fb18378d86cd64b07597190"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "fca090ecb1edeacb9fe865dc515cd1d109b323cd742d4a9733ff199a96ee96e0db4f924079520b9c189ef750f255475d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5b0054e39e522de0e0ffc4034d12f72270291fb24d94d5ffc9c4d69c25035fc6"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fb290f5a70b1efc1dff12f40a0b2d7b94019f66da42e78010c0b8e61f222c4f267b67e356a9e9c346eb801e5515e36243888f280c5cb95c2dd69016a30cadeb9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://code.google.com/p/atinject/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://code.google.com/p/atinject/source/checkout"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.inject/javax.inject@1?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.datatype",
+      "name" : "jackson-datatype-guava",
+      "version" : "2.9.9",
+      "description" : "Add-on datatype-support module for Jackson (https://github.com/FasterXML/jackson) that handles Guava (http://code.google.com/p/guava-libraries/) types (currently mostly just collection ones)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8f048a0f5f4d5b1e6bd254198310a4f3"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8ed2f11606b6f37c087a090e333b19273f6f48cb"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e67b301d2b0426455feddcc95d41c9549bab902280445086219151835bcc9530"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b8aeb8e1aaf851bf82311bc3737f1a8b901bb925f58085b52e08d3b55970fc63542c2a1f5b7967da96efc219863e4efa000afe4f3b088eea597f67137080be0f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a6f0a7e4d5540bacd037685cef8244a531503b009432cbaa6e0fb397a551d9be5a5a34bfb7e1ad41deddd45859a46849"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9ae8e1131fa06719408f936e3a60d1912c84f860a0293eae1dae1a4249d95c52004be431c9eefb12c7eef9ffbcd24404"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e75549c4d65eeeecef6aa6838e62603d8f3c331a91c0c61127b8c33d152ad346"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8a37ae7176cd4d75f23f6914d1b78e3f75b33dc30f25d73e9376e19171a3c53ab881b51410a4c14421cf74a2e7e2f17ba565571178a19361be8bac7d1da07138"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.9.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-datatypes-collections"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-datatype-guava/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-datatypes-collections/jackson-datatype-guava"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.9.9?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.datatype",
+      "name" : "jackson-datatype-jdk8",
+      "version" : "2.9.9",
+      "description" : "Add-on module for Jackson (http://jackson.codehaus.org) to support JDK 8 data types.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f0e9883f3600b52e346f629aecdd4630"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4b04126963103216c9c43b0f34bbc36315654204"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5a46cb8e837b6b03bf08e46133ef331d58ff47a576d20681ef04e904244eaa13"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3bb8d1493485d196d63de90440af529ebf758fd143c07b3ba4b0ecd673436864e5256227181c73b37a8ae37b87f2bf3228c92549ad1dbde6f00f625f9bb7c4b5"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4c196dbf42ddf0988119e9c34d92b981dea2b951c27fc49ec9a2bb45cea19eec6074263afcec6f08c950020b47162a13"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b00a7fa83458a72ac0dfdd122f95e63759d72e7e446f38e2e714fe11b8a98f067af56809405fabef6bff911ac3248b4a"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b297c0dd9814b71a61b92b0d7ec5f56bb4d0462e2dd38ea730e7d2eecb77335c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0bed0f0020bccf4b3deb329708d99ccd628992bc4ea80bd6018d996c0c13fbe93dc19770b07f9cf7d399030d0ede648d64674e4e112b83463db61fa7d5f3d7b1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-modules-java8/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9?type=jar"
+    },
+    {
+      "group" : "com.google.code.gson",
+      "name" : "gson",
+      "version" : "2.13.2",
+      "description" : "Gson JSON library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2c47e14ce5e956105458fe455f5d542"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "48b8230771e573b54ce6e867a9001e75977fe78e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8974a052656d2e5ec968b6bac2edf51413ffc62040fdc65f14f00597e738ab544d22487f8579ba90618b5a7f94ef33773510fac67b408fee6ed274b38f3d9947"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "98e8afe5b23c43b84e7a57e0e27f683a182fcf97ee3eeb6a1311582f7fecd846c806ffb092b620088dc03d256d8eaf27"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d61d6b1cf6997c75287f454e536f855db8404e5fb9d0b8faa4dcc1e7a60ffefc05c2f92f3514e091808a8677b29f3619"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1c051cfe5e630b35d003f96e135de7c5d5cab145b6e1159143570cb246426a0d"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "55ddee7f6c1659ffa82e5c308a0181b459cfeb3442f1f9868ff7e9a3c83376bd2ad527b16d5131df442ffd03d06c35dbd64458df6b02a111c1654f01db381ba5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/gson"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/gson/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/gson/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar"
+    },
+    {
+      "publisher" : "Google LLC",
+      "group" : "com.google.errorprone",
+      "name" : "error_prone_annotations",
+      "version" : "2.41.0",
+      "description" : "Error Prone is a static analysis tool for Java that catches common programming mistakes at compile-time.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "75e3b25da8b8a2136463c4674f5e49bf"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4381275efdef6ddfae38f002c31e84cd001c97f0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a56e782b5b50811ac204073a355a21d915a2107fce13ec711331ad036f660fcc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e2eb4bf9f36f95a4d4c5ea344db5cd90a456e63bef8e52932b8f6f4ecfdd59cb2f6c2ce9e67b0070c82177e42885688b95afef591b16001f789b378f18afdf30"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "43700b378624aa37197ef03a6b5ea40b5fbb6c0aa667eadf810ad36f0707dffaf3ea23471f2553327c3f5644cc875ee7"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8bf3293cf4b72c9a999948f8812190636ef3b0c35bab8dbf9a54c263eeab2a3b3d0774fdcab52c6d114551ff74a8aea2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "2ca1a59f4fdc37a3c83501542c63842fa4fe40c06f69a59a2a072e4af442a16a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6d1f419996b15e5a2bd9b268d166046e38fe9cc6c58fe56aaacbe71b95e3db8c8fe1d226e7f549ea227956feaf3087706bdfa79930fe432298bba9ec06c26a90"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://errorprone.info/error_prone_annotations"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/error-prone/error_prone_annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar"
+    },
+    {
+      "group" : "com.google.guava",
+      "name" : "guava",
+      "version" : "33.5.0-jre",
+      "description" : "Guava is a suite of core and expanded libraries that include utility classes, Google's collections, I/O classes, and much more.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d9fbf39a41a5bab891348f07668e18c5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8699de25f2f979108d6c1b804a7ba38cda1116bc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1e301f0c52ac248b0b14fdc3d12283c77252d4d6f48521d572e7d8c4c2cc4ac7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "994a4dbcbd8e528ad3b4a7acf49b631a40dcebb03d9a8f5e1d3b74351f805f77774e9a19f7233e42036cb415b7838710f207ac1e18335e4a219b7f99ea22a44f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9dabff6e543ead881b20d38a533e9151aaa83999239cf0ace3e712cf678e7976c3a50d79e3f3c57afc05a3b9ff14ad90"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9f65d4d942113facb2eb25229c1530b79dd3b8994574034b8d4a1c2b39ed8ee5bb4d415ec690d3d87cee0d8cb2283564"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fedafab2279bdf6eff66314fc61b056e92312695678e66dc1e25fe1d18af5a36"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e64f3c49f9030358554bb0b8abdff729394988f1e3247b05a86302014eeff4a2855acf46d9bf1c683cbecc33a24173a20a103d3c82c94f8cabd6676a01b40fb6"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/guava"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/google/guava/actions"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/guava/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/guava/guava"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar"
+    },
+    {
+      "group" : "com.google.guava",
+      "name" : "failureaccess",
+      "version" : "1.0.3",
+      "description" : "Contains com.google.common.util.concurrent.internal.InternalFutureFailureAccess and InternalFutures. Most users will never need to use this artifact. Its classes are conceptually a part of Guava, but they're in this separate artifact so that Android libraries can use them without pulling in all of Guava (just as they can use ListenableFuture by depending on the listenablefuture artifact).",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "29a782e90f6b37218b18bb880d2a8f4a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "aeaffd00d57023a2c947393ed251f0354f0985fc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cbfc3906b19b8f55dd7cfd6dfe0aa4532e834250d7f080bd8d211a3e246b59cb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "72be228e7805da5623e42bf024ded7d9147023c66b22f4dbd04ac6898201af46ee82e1f92ea51eb0595f1b49151c4b8ecb862653d4906c17609c42544ee97abf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9dd1a2a08efda311604992d3e7cee64873bc8c64de3b423b1b3a3dcc1f7f0810bb03901fbfe39a5f835accb0646f4ad8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ffd67766c165ee77e96824e06de2c19864a6e61f785b2085eb825f308f173d71f2555559d90d910f33f3367378ace0e3"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "08a77b528a72ca412b36e4004692705ebfd75cfb4897c88632d367d08a34b09f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7cba6c266babbe8272f029eea6e2cbddadee96eb1a16916a6eb2441a55837867ce717385d4388735fd83f2f6555931077c0ebda011a1ee9a37ac38c8c0c43a65"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/failureaccess"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/google/guava/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/guava/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/guava/failureaccess"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar"
+    },
+    {
+      "group" : "com.google.guava",
+      "name" : "listenablefuture",
+      "version" : "9999.0-empty-to-avoid-conflict-with-guava",
+      "description" : "An empty artifact that Guava depends on to signal that it is providing ListenableFuture -- but is also available in a second \"version\" that contains com.google.common.util.concurrent.ListenableFuture class, without any other Guava classes. The idea is: - If users want only ListenableFuture, they depend on listenablefuture-1.0. - If users want all of Guava, they depend on guava, which, as of Guava 27.0, depends on listenablefuture-9999.0-empty-to-avoid-conflict-with-guava. The 9999.0-... version number is enough for some build systems (notably, Gradle) to select that empty artifact over the \"real\" listenablefuture-1.0 -- avoiding a conflict with the copy of ListenableFuture in guava itself. If users are using an older version of Guava or a build system other than Gradle, they may see class conflicts. If so, they can solve them by manually excluding the listenablefuture artifact or manually forcing their build systems to use 9999.0-....",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d094c22570d65e132c19cea5d352e381"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b421526c5f297295adef1c886e5246c39d4ac629"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c5987a979174cbacae2e78b319f080420cc71bcdbcf7893745731eeb93c23ed13bff8d4599441f373f3a246023d33df03e882de3015ee932a74a774afdd0782f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "caff9b74079f95832ca7f6029346b34b606051cc8c5a4389fac263511d277ada0c55f28b0d43011055b268c6eb7184d5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e939f08df0545847ea0d3e4b04a114b08499ad069ba8ec9461d1779f87a56e0c37273630a0f4c14e78c348d3ac7eb97f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1f0a8b1177773b3a8ace839df5eed63cbf56b24a38714898a6e4ed065c42559f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6b495ecc2a18b17365cb08d124a0da47f04bcdde81927b5245edf3edd8e498c3c3fb92ce6a4127f660bac851bb1d3e4510e5c20d03be47ce99dc296d360db285"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://travis-ci.org/google/guava"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/google/guava/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/google/guava/listenablefuture"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar"
+    },
+    {
+      "group" : "org.jspecify",
+      "name" : "jspecify",
+      "version" : "1.0.0",
+      "description" : "An artifact of well-named and well-specified annotations to power static analysis checks",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9133aba420d0ca3b001dbb6ae9992cf6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7425a601c1c7ec76645a78d22b8c6a627edee507"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1fad6e6be7557781e4d33729d49ae1cdc8fdda6fe477bb0cc68ce351eafdfbab"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "efded31ef5b342f09422935076e599789076431e93a746685c0607e7de5592719ba6aacde0be670b3f064d1e85630d58d5bce6b34aed2a288fdb34f745efb7bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "814f860e5a44ead6c457676841eef471a8b87be31b84c60a8a4477a18a9cbcb6e3c2ae700969d5c5e52309d961e0537a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "c8844e5b71e5ecfbb7366097ce34af2f5863d86d5ccc3f9ec384d8ade4b60ccc8124c7fc88664f1afd2b0962fc8775bf"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4b4f08ad7606a3ac62997779484919a302267b26d26ee19125f8a7eea60e8a71"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "65c6845ebae981cb81b61107707ced39f5b377dae970b47606ef482aaf10e3729def0da40d9377c43abbfb483a5ceae039b0d51c129c50a6d36ad351a5d6b01e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jspecify.org/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jspecify/jspecify/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar"
+    },
+    {
+      "group" : "com.google.j2objc",
+      "name" : "j2objc-annotations",
+      "version" : "3.1",
+      "description" : "A set of annotations that provide additional information to the J2ObjC translator to modify the result of translation.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "abe8bd3abff622b9a8b15c3a737aa741"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a892ca9507839bbdb900d64310ac98256cab992f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "84d3a150518485f8140ea99b8a985656749629f6433c92b80c75b36aba3b099b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "34ee5aad57b0b507e89c897306f73043f80fa0eb02b453e54d9052feb0808a0d2ed835d888946211921d2bf733780b19ff636479ce19b9f48814ba6008733ce1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7b760a346a586d6a3fa4477807e2f02f091e61898fc9a6ff449e43c55b6465fbbc17720663183c84c41d4d8814085e51"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a2166c1c08f947c0e60aa7c9167602942e7bac37ba45863d34c0132a1f352e7807a382588d350b93bdbbbbe315a3573f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3d4d3b8bfd2ad13351a53610aa4bf1c5a69d2bde4272c281003120ed9bcddb8c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0a574b379a3f8022f0b88252c87d0e6b6cfa434fdb981efd1b24387025a962d7ac4e90161e8bd048df142bf52f4fc41e4a0c1d45e4eeb872c5954aad552988e9"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/google/j2objc/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://github.com/google/j2objc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.1?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-databind",
+      "version" : "2.20.1",
+      "description" : "General data-binding functionality for Jackson: works on core streaming API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "49d7b7226df5ed4a036e48997a03d066"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9586a7fe0e1775de0e54237fa6a2c8455c93ac06"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "34bbeb4526fff4f8565b12106bf85a6afcbae858966d489b54214ac46b2e26e8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "16906e9c2f1962649eb21de148f362fedf2ce903c7ca0e6d68a01d43dbe8402b70cc537c104f36bc40a2bed6601162e7c21663735582e25bff7e27852be1405d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0591935cdfed1d65fa4a2820133ba129384f71921228ffe093f343d3ebf0b699762810d9208641726111015f0e35753b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "855ccd449944e7884f8088c8c5b224e6e2f63bcd3123502618b4f5ded025e5978143af8c5d31215276932bc3bb089472"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "53732171c9f2bdeaa40017a34683a00ac11e8a8c1bcefaed07eb91e629e20376"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "05017efae94bc3c83131aaaa7911f20e7c367502cd2cd05c6cedabc877b55724bcde2521ba1da15bf1c1c3ccb1a235124b39b2d4860142f2b89d4df197cf5c83"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://central.sonatype.com/api/v1/publisher"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-databind/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-databind"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-annotations",
+      "version" : "2.20",
+      "description" : "Core annotations used for value types, used by Jackson data binding package.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b901def3c20752817f27130e4b8d6640"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6a5e7291ea3f2b590a7ce400adb7b3aea4d7e12c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "959a2ffb2d591436f51f183c6a521fc89347912f711bf0cae008cdf045d95319"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "8926d89bfe7f427c7793f6af619249540f23f82eae055dd03d4cb163ff603a43dd6a3ebe43528d00789aed3df0dd2f10e08552fdec53e2691849b9769f57f0c9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "40ee4c1438a5a190624dff9deca83377f7e60690b4535359b2a79924f736bff7c8d077e5b01c6c8972735dc152f2ccf4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0fc0f697d03692b63c2b11fcabac51c630278ed6df15420975263ea4ad19418b3b71b7889497ed20a150035f9bcba79d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6bf49e384735969af020f758b255ceed26af92d4cf456f6e7b83e8de53289f93"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3372f6c456a7f6a33ebc3ecc65daaf36288be2a14b1f2cb9fcd7387c07acab1c69ae803a366e5d12adf4934970ffd2e34017917c5f16a6d563bc94810f228ab3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://central.sonatype.com/api/v1/publisher"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-annotations/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-annotations"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "com.fasterxml.jackson.core",
+      "name" : "jackson-core",
+      "version" : "2.20.1",
+      "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "889b2c417b61c9f4f460b06957147234"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "5734323adfece72111769b0ae38a6cf803e3d178"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ffab4d957daa2796cf24cb66d0b78a7090f1bcbe17c3a4578f09affaaf137089"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "0463e1c2e1d8e8cfa4954dfce491583f0ec9ec1de6e6f342d1e5f0c63dcfb959673552a279ec4e6b6cc69e6ac2de6d42dd512149ceb76620b5d780db7325e6a7"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a279b2d57d019a05f65762ce670ce23e02466b11276d8c0687f3bb5ed40a8a1854bfe6dd2dc157d0f5695186f7d9a65a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "06b9f33e030a99fa95d171118ab668bee42e32b35b85e05750f8514128dbadc94026afde16dbadc0ff786027b09712a4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3e83a1a349d8ba3a4e76ee983f04b259a85263dda5090f55aae5535109c4b6c0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "87b3a61a71a625adfc6b9b402079c26b223e19535ca5af07e4130932d479f9c22e90696911050d8ab8a09a6209651fe2f25f54d7d9a1493b6dab6f8acb76203d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://central.sonatype.com/api/v1/publisher"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/FasterXML/jackson-core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/FasterXML/jackson-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-io",
+      "name" : "commons-io",
+      "version" : "2.21.0",
+      "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bc7e020873f086ede85f97bd9f013215"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "52a6f68fe5afe335cde95461dd5c3412f04996f7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7d643a2afea8b058b762aa6fb90e5b256f6c729739f8b3784c3370ddc609e88d"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7ac1aa4d834cd7cdecaee223a64c63d481810c73dfdb5109f402234a05cadf754e414cead99072f5140d4f7042ee084161935fb28129a631d908d989c5bbac5d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "97c07e5c4f62484c98b6777f63ab032ee09eeb1c9ddae8332890126df9c665afb9cd554db02495171738720d23c53732"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e3e44c9f4a5f4075fb62a438a84015fe2abf878e9793835a7816dc3c35141bb79fe96dfdc6bb5aef96b7c5bbbcf453c1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1f8f4ce25b7169452dabb10ce843b3246378ea55c1971acd2300e417747b3a68"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "175630adf10305aeb31d737f833021a25582ffe2ef66fda6e7f694598af9c68cebbd205ade469eca4faaf6b9d349244289e62179d9cf48d93427090e2c008cf8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-io/commons-io@2.21.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-io/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-io/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.21.0?type=jar"
+    },
+    {
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-io",
+      "version" : "12.0.31",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5f4f378dbb1784bcce2d05efe7d0b421"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1ab6bc55ba81772ac349d8d1b97ae9064ccb4f86"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cae5de43daaecf7e0babc92a61af5d9d91e834da3f8e1f506519e205728827e1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2c65d3e7ed90737ed91c65f6d90ed703f8369ab96c402145f5009f207d8d0dbebd52e15453c3409b3292562747f95ee6e746d4be78bfd47504de2bf4a0882685"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "91150e2027788c877c9156e5a1faf388676058a64e302d660df186ffd6f57b0e3705f02a9c5049e5217213971d177ada"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f027c4d204069000290256b616578d1db1790e034d8b94e14484fe389189aa9e1e7dcb7ae7374926e3a55531ede99992"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "8cdb011443a886c31f6809c5d8088ec4a04a62d78d9351b126ade35cf80b6037"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a2f58aa4c66de029bbeaae174e6601a95c53ba2476bb4ecd2e6bd2fb1071a2961d8860d4b8cdf7467210a6a6b0543d260ae2bdda2b198989eece59e713f5d164"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-core/jetty-io"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.eclipse.org/lists/jetty-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-core/jetty-io"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar"
+    },
+    {
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-util",
+      "version" : "12.0.31",
+      "description" : "Utility classes for Jetty",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9523a14ea712d894009a45d30d06c55f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "10c9b8c368f6f21d5c7967e35a7556ab2123ba72"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fe9452b479979eab0a450cfb32783834967a969333e7aebfff869baafe030020"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "09e59c8137e6d60e732fb3a0efb4a867bd1da1c3a4808cbad7ef9c384e5663a27fd8977605ccd15d7e2ac3941b83582171bb46944ee72f22bc399123c7ed2f8b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "b56bbd98da250025142a8d2664e41f567404eed09c06db6e4960813bf91736ef8c52a7c7efa44bbe88aac52814ae8cc0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "78a659ade59ff4a9fa378d54ced244599f99a98071b2fe8f5fd7dc87d18459f808d942bb2b656ac72bd446cd43b9aac4"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0f1ccbbb57b66c63f9fdcc343d7071579af18b14ce0c741f3890a2ea3aca0161"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "e5ce649418e85ecc3e2043feb05766cfe554d95d68ea4f9eea919fc543896b4ba39e66926d2676ae623d41024553c263cc026b387920396ffda0f639a40e1249"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-core/jetty-util"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.eclipse.org/lists/jetty-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-core/jetty-util"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar"
+    },
+    {
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-server",
+      "version" : "12.0.31",
+      "description" : "The legacy jetty server artifact.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6a8e8e6d0c588fb54a5ea6b26ba8d5e9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6715530addfd5245b82d033fe2d601f55999dbd9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2abbe994b404d7140bc434c3667c06dec99d9f9af311a04f7b9fabc5634f050a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ac6c5fc0254969a886f16028b315f749353d7c3e102c4333dbc09d814ecd31b4eb64b9f9417ba54e79a0bb2d861fe5e279ecea131832c5bf776ba73c5621600b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2ec6165d7a98cdd468b196ad1eb4b02e36e0d8f59cbe7fa4333ebeaf4289fc90b6aa6b0657d9091c094d5e927131fd19"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "30e378c9d08f7539761a06557482d1d60811a8133ccdfb4fd40bd417df58b126620dad165f13c469437e0a303663c291"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "dc050404bbff10ae6749806c2dc33c814cea9cc7a8c7eafb219e5c8cd44e3ca5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "74039bac267e425ad6fc312a201c150f04eb56e51fc298028eb72a6a1f3ebede6c6e3d62fdc59871af41ff77f4366f61d7b81e763198966b7a31d15a376123b7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-server@12.0.31?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-core/jetty-server"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.eclipse.org/lists/jetty-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-core/jetty-server"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-server@12.0.31?type=jar"
+    },
+    {
+      "publisher" : "Webtide",
+      "group" : "org.eclipse.jetty",
+      "name" : "jetty-http",
+      "version" : "12.0.31",
+      "description" : "The Eclipse Jetty Project",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "782d2868092f3173199c683ebebab010"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3a539b369976b9a507fd564f32f10fbdc1f398df"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "eac64b08d00f4cb9d0aa2c380c63d41f87d2e6726e0779caf4f69ff0808911dc"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "60cbe818557272c6513f15d2a3f09c65cfe7a7bc8faefa3dfb12c3b6c642cf93d8b03d082c502163d1be98294c47ec015a3875da5b32f97ab0871f1cece143c3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bac89a5679f5c7eba1b84ae2ef7252a07b32888824a337c731a04fac53374c49a6c4cafdd3643e184362f3500b87bbdc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "efbd25745266d7e53d90a5f4109fb2bed78cb755e6b081f69520bb688eec29fe599b15641b5e003c888bcf67bbaadd82"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1e11d6f24399abdcb104f183d048db114748ce1fb774db966a9a7004d0de9a41"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "45cb3a9b40cee3b8bc66dac0d0c934741d0a261248d6b637347971f037d9f404d0076bc7eb1a1203ccf98c9e54904407569ba3bd22f28a1b0f9a7360030c1c02"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://jetty.org/jetty-core/jetty-http"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repo.maven.apache.org/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jetty/jetty.project/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://www.eclipse.org/lists/jetty-dev/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jetty/jetty.project/jetty-core/jetty-http"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-beanutils",
+      "name" : "commons-beanutils",
+      "version" : "1.11.0",
+      "description" : "Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "32ed51f196dfda19e0dc1ce53eeed29e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ac03ea606d13de04c2e4508227680faff151f491"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9e44ba68ec9a3f21286fa2a8bbb003b735c0f69101bb43144b79f4f8aaa74709"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4348670579601bc1151de2f27414635c4ea0b4b53061d116c09ba319e2c4f8e91d0cb0713a964668bd5189105ac1e2b6590881850880bf5ff23cc6409f270420"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a349c6a1e0a48cbf8d3528e4a39257db1b912c2ef060853837aa14d941154e9adc43248309ab6db7e8ac7730db7b081b"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f3afdd778bb54bc6a9e41b5c31cf98078f005542b87cd0a3713d8e5152ff7eb6d9e2ed3206ce453a3af6f869fa714cbf"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6dd4ec6d993b5792c51b5d6c4ea3b56f35b1c1f0ea65b182cb55c2432315aa68"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "fdcaa942f7377fdb36c7977273c1e2177d23e7b13162db1a0e5d3958d87a8c77d08cd6797a7c30cf755d492fa75d0642de5678dfe1d5a936569dccde5549e512"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-beanutils/commons-beanutils@1.11.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-beanutils"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-parent/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/BEANUTILS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-beanutils.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.11.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-logging",
+      "name" : "commons-logging",
+      "version" : "1.3.5",
+      "description" : "Apache Commons Logging is a thin adapter allowing configurable bridging to other, well-known logging systems.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "9ca067b073153c86c2da350c0f2cdf70"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a3fcc5d3c29b2b03433aa2d2f2d2c1b1638924a1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6d7a744e4027649fbb50895df9497d109f98c766a637062fe8d2eabbb3140ba4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b6d66333cec2746cc410ca3b27099c4647618a1855783bac064c75eec95c643dab184010e5c875aca3c7fa827aed144488a1820604a043bbff93116de509f915"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "bbfc26f81852dfe8df41b9cd1da6e755b223c51e824898490f96e2aaefb42e5484408f8a245b244bfe4e08170295ee72"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5e17863103757beb582b316f90a02f57f0ea7702b2146d6b318ab0f1105a3e0190dd1dc7b031550a68c047cadd23c114"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c01a09df81fae75d398ef61b168c8f7d70291b480961d392c59bdd1498c254cb"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1ce4f4219542c8f1f0b52f9d2d916d8b11136f7a800bbb24ca93a28a800121e7c48af410076213d05dd715b37b110aa59a7a9609415e0cc5daed89bb13fc4668"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-logging/commons-logging@1.3.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-logging/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-parent/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LOGGING"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-logging"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-logging/commons-logging@1.3.5?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "commons-collections",
+      "name" : "commons-collections",
+      "version" : "3.2.2",
+      "description" : "Types that extend and augment the Java Collections Framework.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f54a8510f834a1a57166970bfc982e94"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "51c72f9aca7726f3c387095e66be85a6df97c74b00a25434b89188c1b8eab6e2b55accf7b9bd412430d22bd09324dec076e300b3d1fa39fccad471f0f2a3da16"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "dd4e99b3314bd3c1a1ee26296615d9e44dadf7a1f8a7bbba44fb95121803d331e36d4cca4260e7609af78a47ba3e4073"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8ce03528e4a6e95c44283b56eca87e6a6d3bf1363411a55b538f4f9110cf7470581ea5c73925e877ddab08dba0603f40"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "fd3d6134b5f07077b82ccf93d148dacf7c4ce5c971209510edd0e77e3e38c19e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c2a523916fb7c7d55a05d5e3d9e9b33000733f4b20a71be174e4e093e3f06ea78ad831edd1505527da7388105f8647efb7d5666ba852c90b4e2d5bb74256efbc"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/collections/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/COLLECTIONS"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/collections/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-lang3",
+      "version" : "3.20.0",
+      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang. The code is tested using the latest revision of the JDK for supported LTS releases: 8, 11, 17, 21 and 25 currently. See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml Please ensure your build environment is up-to-date and kindly report any build issues.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4b29562ded527aa074e1d44f8646dac5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "65897b3e5731220962e659e001904af3c3cbeba9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "69e5c9fa35da7a51a5fd2099dfe56a2d8d32cf233e2f6d770e796146440263f4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1c72db334ea44f932c35e602b78907865f5bab43e30c871c9be67c8184eaa778f32d7bc3ab525d5921cd28619d3f9babfd483f17de54f007ee07db2e074b0307"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "77dd27c4d5e9372c002bd6878d2cfaaec3cf46dd57d65de63d7f2e09351344531cfa81a537b56628ac6db18adee7e484"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3456de40eef224b3ad195d2f218dd28eacb0da07607aee7ead94bd8d54bd8311d51c28d4066db4bf8b69a2df48c415f5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "36e3f71352fa14bc580db45a05b09b063392c6d39acf9e24ffa6a67bbc07a336"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6ecbc05bb5cd3f7537078b0cf51b0a5f7189dfa60c22e5ec0d6b9e2fd3f7fa7566770b5da87e0c9929f48769933c3e3a473fd5cc7231672fca36ab1fee1f8670"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://commons.apache.org/proper/commons-lang/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://github.com/apache/commons-lang/actions"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/LANG"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/commons-lang.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar"
+    },
+    {
+      "group" : "org.subethamail",
+      "name" : "subethasmtp",
+      "version" : "3.1.7",
+      "description" : "SubEtha SMTP is an easy-to-use server-side SMTP library for Java.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8c2e94c3599f37f85c81d9672ffca280"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "41381242daa11113c32da5b25d001bfdf4df53fb"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5196a0da2c5a33d1a04e88fc7a9cc109501bc265b5bac8edd9984a1885070ad4"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "44fd532c1585e8748c4df54174285fdbebecdac062cf3dcc738666efb72ff6cdbd942489b28d8a6bfef3a2955e750eb367581832cd451ce5d7d22dd31b840f0e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "05a47998a84121f33019612f21978a511a2f051afb703cf087a665531baf3dcaca80709e7ace43807e7441167700a4f3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3ac0c41ff7394a8cb3d635a7dc2e1b4895ef7a59fc62e5c67705ed370efd4b78836c652abaffb2192e35700a5cbd780f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "12ae47e5b69801ae4f1f109a761bd5de86959e19ba4dafb19805ed9e3e84d9c8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "adf6ad2892ddb606e3bdb4f522e1b8c719a685006ebc9c2d2fb305b41bd4b38257ec272fc112d06fc4ecd7dcec26f6a173fdaa51df7deb87ef29efe5607c7c43"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.subethamail/subethasmtp@3.1.7?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://subethasmtp.googlecode.com"
+        },
+        {
+          "type" : "distribution",
+          "url" : "http://oss.sonatype.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://code.google.com/p/subethasmtp/issues/list"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://www.subethamail.org/se/archive.jsp?listId=13"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://subethasmtp.googlecode.com/svn"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.subethamail/subethasmtp@3.1.7?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "javax.mail",
+      "name" : "mail",
+      "version" : "1.4.4",
+      "description" : "JavaMail API (compat)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "f30453ae9ee252c802d349009742065f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b907ef0a02ff6e809392b1e7149198497fcc8e49"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e02be269ddd475651248889892f5dcaebb9058d5d3afef2c5b5dc391f2471528"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2164dd86878f4aca2ec5069fb7e8a0526b25f3f3b5917ba801b06febd71041780aec476083ee58e2b17cf7bb0359235ea5417732ef54ea824e028c036958fce3"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c745ddd756ede5e3fa282dacacf213cf4854ae7c6d22680ecfa0eef83ed4a6c199c2de206c85e6a8e501e034830d6365"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "df06c1e7141a8dddb6556fe20a343bc8fe6f941ff405f94d8980872ad3add22df18d06a9ca4ae921120542e3ba67d670"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "831b92b16fdb76a320c635e7879d3553e6c287cffe46c3ebefe310049f66910b"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "795a8b1535b339e85998f41f12140704729b7c908271ae41fc978ebe78439e5c28b19036d9c587ba4154589d1df2d89fd96710b887661497d7fce0d4d75aa675"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "CDDL",
+            "url" : "http://www.sun.com/cddl"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.mail/mail@1.4.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://kenai.com/projects/javamail/mail"
+        },
+        {
+          "type" : "distribution",
+          "url" : "svn:https://svn.java.net/svn/maven2-repository~svn/trunk/repository"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.mail/mail@1.4.4?type=jar"
+    },
+    {
+      "group" : "javax.activation",
+      "name" : "activation",
+      "version" : "1.1.1",
+      "description" : "The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "46a37512971d8eca81c3fcf245bf07d2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "485de3a253e23f645037828c07f1d7f1af40763a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ae475120e9fcd99b4b00b38329bd61cdc5eb754eee03fe66c01f50e137724f99"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "49119b0cc3af02700685a55c6f15e6d40643f81640e642b9ea39a59e18d542f8837d30b43b5be006ce1a98c8ec9729bb2165c0442978168f64caa2fc6e3cb93d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "021f29ab14a1db9b27e31778fd5b6ead2ed46fef534cfab6b34b1b839547c78fc39cfb1568f0b2206bb46a98c4b9e1d4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9342dea5301c73ed32ec03efaea0f224336a7399674532130a025a85441b0c9e2ae4f6987039ccd337e719528279af23"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c51116dd0dc0668087dcaed49fc497c23269c9718b3fc66bd191eeabf1ad3155"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7682c02949ff5057100882b2e802fc7afd5df14b77ddadd1dafe3f3bcd55f2e382df377bd3dfc3fa43816496fb441ec02570245e8d762bc975ccc53bc0ae0306"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CDDL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+    },
+    {
+      "group" : "com.google.code.findbugs",
+      "name" : "jsr305",
+      "version" : "1.3.9",
+      "description" : "JSR305 Annotations for Findbugs",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1d5a772e400b04bb67a7ef4a0e0996d8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "905721a0eea90a81534abb7ee6ef4ea2e5e645fa1def0a5cd88402df1b46c9ed"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "06da282cfd8e30d9f8cf17702b8709172b00e22b75a627a1d85f8989615b8a1a401bc25d9aee7b14aed1d9b5df73bf2ea8d66f9c8468d9577c29f0ccfa2cc70a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "56e6b41ef62eb5edfed0203802cefae9c2df86388148e420bb0c687abb2b80e14d5c2a82d5b35dce4badaf148f94eada"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "58c3bf89fa1afa75c2c5078159fd28e27b2273d437f26aaaa7391310b6f0823f3cf476a24f5631c0881f3f7e946d99be"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c333ea5faedfa78e0614a2620438d5724eab093df4e960918391b6a44c2915b0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "67ec31448e156cc72dd036060b460bb2667a13b1cbe500b6b7eed3235b1994b44c39f440ebd07b21ec9595b166ad61121d4f6a132b5b313c558ab21b72599425"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://findbugs.sourceforge.net/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://findbugs.googlecode.com/svn/trunk/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "apache-mime4j-dom",
+      "version" : "0.8.13",
+      "description" : "Java MIME Document Object Model",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8b4ab263a02ce40b7df046d253407870"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "19b4c87fce0173318131d90fcc518ea294ee2bee"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b31d88db955079cd3be745b21ef27c76ab868306688a7e54ad75646e916bfd67"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b2c5fb110fa8a0ab3c822b066d59ac9d786a117601f4f1dc63a79b2d6856c1d41dfcab55e8a4d0fa695c4557a0fc2063088517fec51ffe5de04a3f3cc2ae9520"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "e30df3dc0d89a7065703c6338979aec5df096ff622e21ddcd4c2b217a33a599480c848c187f1cc1dafd81de63adfbc32"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "49ae38fd3b822536e6b4db026089b6b36d998b1ee89ef99a2a1c4d5be8acbd44e8e67e81740f5ead404583dfadbade8c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c9f3397e0c494dfb8fdf1a9e37bf6ea81e0866e13c0c91eec13ac36039351022"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5509769dd1be81e919ec05b30be38bfe9e30e3d4066f27cfaefd385e360e73440af0df72b9a6f58bf71ae1f656556c744d736e23e93970957061e36fe8936463"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.13?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/mime4j/apache-mime4j-dom"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MIME4J"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf/james-mime4j.git/apache-mime4j-dom"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.13?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.james",
+      "name" : "apache-mime4j-core",
+      "version" : "0.8.13",
+      "description" : "Java stream based MIME message parser",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "23b7ab172f86f5d0e91a0993dfe743d9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ef536e762f426a6943653a90aa59463b43fe45b1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "00496c123926395d59e5dfdfc8342c607600c6c9e6e6dcab981a673b62481cdf"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "877fad79c55881c7bc1fb7ef06ab0da50ca0b1ebbf1beb2ca43db3afab59c96dd7ebb3d07829c7bdcd3dd11e92791a2d591ff7279f59e56e89421022ef991897"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8245fcaab5cc1d65459d52100830a9ea39a60b7c86c13f969a38363fb332c6285bb57d3853e80d0e7c92aa957e289ed8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "a250665d0e53382ca312b25015fbd57515bf97d9aa083284faf1dc274744e4d154d3378db51d20d4d71353f6a1a83e3c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e2fce33e096e255000406c057c2b4a8a49e66b77aaff448362f5443097efd072"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "d8dbf4caf8deb87c74feadc0ba00a7f01f887fc44578ea2c748eddce8f05510260a629bf43982bb1191c2bff4f1c794de36aa33a490f19047a88b203810cc550"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.james/apache-mime4j-core@0.8.13?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://james.apache.org/mime4j/apache-mime4j-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/MIME4J"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/www-announce/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://git-wip-us.apache.org/repos/asf/james-mime4j.git/apache-mime4j-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.james/apache-mime4j-core@0.8.13?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "2.0.17",
+      "description" : "The slf4j API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "b6480d114a23683498ac3f746f959d2f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d9e58ac9c7779ba3bf8142aff6c830617a7fe60f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9a3e79db6666a6096a3021bb2e1d918f30f589d8de51d6b600f8ebd92515a510ae2d8f87919cc2dfa8365d64f10194cac8dfa0fb950160eef0e9da06f6caaeb9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6ea24f814a9b6ece428cfd0535e2f3b8927005745ef61006b50fdb5a90126ee5ea05650155382b3b755c5bce38ef3944"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9b1015052f0ec43f9be09764e131834157599611cb52f6fe591c4ac6a8ab4817518f2a4b8871e5e738c8678e93af5557"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "00559b4f4066b4917ba4fe2a6f23111eaeada321112d030910d218ced9084b5e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9579c2f7e7516e177c2d493ccc9eb8150978cf19f6f09b28d116f6935239fd56dc6af2b62b3336f79b0b462445550cd1fb5377a07001a6f44aaab6a32fa2fa47"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/slf4j-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "jul-to-slf4j",
+      "version" : "2.0.17",
+      "description" : "JUL to SLF4J bridge",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a42936c56611e4794c42908fb3d3a647"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "524cb6ccc2b68a57604750e1ab8b13b5a786a6aa"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a7afcd23b9cfd1475e55c94f943b808c5922035e7e2c2a5c65a487a4106bc538"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "623426fb3a0a34c88b1fce686cbfaa8d17bf013f3583886dc94273bf2f767492044b48db6557988d764f0450129c9d496dd3c10ad548099879d80e3945f2f636"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "fe66fb82c6f9dca6f8fb1d61e1fc6f4d8bc9b616cf89aa5b54fab933e1a55506a2400e8e9b1c92cb2787ac69731103f4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "6f537049a039795f0f4c0653d2ab959fe0bfeae53f629148773db1a819b2308e16ef6e3f9d49a5741e9adf0ce5c34eda"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "f25e1333214a362f95ef31c8465f6d89b4bb7399638f4c4ad53a6d9f0ecbd649"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a831c814c1064b39ead500e542de1decfe302688936b93c9aa781938bb0ae884907137ea34f18f99436f24fb9ddbbcecaf32df543c691d6311671f7e8b81dbc7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/jul-to-slf4j"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "jcl-over-slf4j",
+      "version" : "2.0.17",
+      "description" : "JCL 1.2 implemented over SLF4J",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "4fcd46ca51e55b9fd9b0db34474927e0"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "76ea503eb688f06556a9ba69995d7eab63e34531"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "affd06771589ebfe454bb11315a4f466ecaa135b95f3e7939534cf1d2fd7064c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7efb2771bad2e643b0e814cd78ab4f9af3ea166643700776618c397e9755ca11f4b7c00030562a619932c9d2ec5114fd253ece3abbc3db2f1a064431d8990733"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "96fd8b2732de79c40e5e6613e324d2845dc6e19bf31bc7f3e9fa6730fa527cd16579ba9eb7915481faae1e9a32dc82fd"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "252a3e6847dafd84955a71724d71641b5c6508bcbbc1f2457fdb18994b61f6d78b08cbd40d5c430743950e351ec79835"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4c066cec2c40de9b5743f43d99b629d60de937718f69ffd837bbe5902682ee92"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3334a1fff0751378abe8e010ca9716a85a15a90450265699c32886d2e8f9ff63df89237667a262350d860dbfb2f20fffff14e9a094f0bd2acf990dd543c2b86f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/jcl-over-slf4j"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "org.slf4j",
+      "name" : "log4j-over-slf4j",
+      "version" : "2.0.17",
+      "description" : "Log4j implemented over SLF4J",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ec3cf11fe022ffd852ab84e9b8b69a96"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "55e55c79a0b89ccc9e411049005c02b7514e0cf9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "cbf30eaf95357ab7babf9be123da9cc702f0fe83b23392b7a62589d60b5862d1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "b30293841a75c89a31cde5f756eba6b4aeb97774be9475691b2d4a7a412ff9a98f5ada1c60649a8404efb36c0091f70ced8f6389fd58fd876122f94be9169407"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "38745d5c8a475079f925bda9edfe7e4d4e5cf2f916d7db025f0f9fb55390c746171975cf40decdefd1c19f34db4c794a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9a1274543c477f273a9cee53b5b53851588513b4975b641c8fe0cdc3f0a410e99e3d1a8ac13d5aeaf0652cc12893a819"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4c2a8896f96b0dca903d8f1ec33b146ce2ca592f3dac0d1278bfc63430c0faa1"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6d9d9a4f3f915a4712401d4c9b9739b4681f7804912204a7ca5ba84686decd3e9290c1db0753d7d207a1644ce8fee39cdd7539ef0929ec14c09683423010488a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.17?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.slf4j.org"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/slf4j/slf4j-parent/log4j-over-slf4j"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.17?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "ch.qos.logback",
+      "name" : "logback-classic",
+      "version" : "1.5.21",
+      "description" : "logback-classic module",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e4aa08ccbae42f0a94ef6d706d0d5cf8"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "904915aa29a0bbff111ae90ed85541b2991a72fc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b2523f7b0dabf4386c81312f0371d267e3a9fbce409046f16b042bf68571ba4a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a37432f096f97b5b7610d2887345daddf03cb5fa4518532aa2849bbd6745da1921b87ce4d7b26df8667fdc412ed48ef78ab658d4e44e3c99b17e135e08ef863e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "703c7867632bc76018b0784ec61d92a98073fbb3787e957ae8367d969303e3e269fa5f6a77a6ae1defc32dfc0a29abf0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0e23783135a7413f125970ad890ea83bd00e6ab5214ca8dc57ef66522c76047141a465d62bd845cf1944942fbcc61cd2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "cbe7e7cba6710228c74753356425d9128a848cdb4b67998e39a2a7328611e309"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "698adf9862d8aa8e59b8db1f258623313554334b795aa46c9578c7fae054b7f7d8756b01b4ef3eb2e3b57a7b271b5fa3e0f1f4ad2764b6760701419783203468"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License",
+            "url" : "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.5.21?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://logback.qos.ch/logback-classic"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/logback/logback-classic"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.5.21?type=jar"
+    },
+    {
+      "publisher" : "QOS.ch",
+      "group" : "ch.qos.logback",
+      "name" : "logback-core",
+      "version" : "1.5.21",
+      "description" : "logback-core module",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "00c20552b89470eff9f01f21c77d44d7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "970bf47cbc34d24e47f375b6b4e407d6d699474f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0825ac1fc5296369121e5423e397c52d125b0e3fae743cfc0d8e416159f14f44"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "fdfe6da279fe10fa19bdfc401c5eba4f6a0db7cc4aec9148def5d59a5ffaec0bdd38e0e0c187aa124490129bef0c062719900483e6e7c7f6ff0333c521ed7e1d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "789a53e1890f492b15f318b59583bac246afcaaeca744118c70d5ff5fa2d45cf6b0c3d41afdf56c72b9f5ea0c198f5ab"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "636c33723cbe6b611bcab962e826ba9c2179c6298218a510f503d0ccf7b5df3aeea60101d57c04b1a5490e8dcb2333e8"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7ff9859883b6680b051650aaa1a58558c34a7eaa930f119d8d576b0099b1061a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "39b1beed6bb2e899c2b8338cdac6d160da624a1dd0961ea5b5c81051af8bf58345ac40111c627f7e7be777de9557bc9ba0797988843e0b364b1e87a5bd35d1f7"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-1.0"
+          }
+        },
+        {
+          "license" : {
+            "name" : "GNU Lesser General Public License",
+            "url" : "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.5.21?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://logback.qos.ch/logback-core"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/qos-ch/logback/logback-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.5.21?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.tamacat.smtpd/tamacat-blackhole-smtpd@1.2-b20251211?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.james/mock-smtp-server@3.4.0?type=jar",
+        "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar",
+        "pkg:maven/commons-io/commons-io@2.21.0?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-server@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar",
+        "pkg:maven/commons-beanutils/commons-beanutils@1.11.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar",
+        "pkg:maven/org.subethamail/subethasmtp@3.1.7?type=jar",
+        "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.13?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.17?type=jar",
+        "pkg:maven/ch.qos.logback/logback-classic@1.5.21?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/mock-smtp-server@3.4.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.james/james-core@3.4.0?type=jar",
+        "pkg:maven/org.apache.james/james-server-jetty@3.4.0?type=jar",
+        "pkg:maven/org.apache.james/james-server-util@3.4.0?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.9.9?type=jar",
+        "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9?type=jar",
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+        "pkg:maven/org.subethamail/subethasmtp@3.1.7?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/james-core@3.4.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar",
+        "pkg:maven/com.github.steveash.guavate/guavate@1.0.0?type=jar",
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar",
+        "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+        "pkg:maven/commons-io/commons-io@2.21.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.github.steveash.guavate/guavate@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+        "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+        "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+        "pkg:maven/com.google.j2objc/j2objc-annotations@3.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/failureaccess@1.0.3?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.guava/listenablefuture@9999.0-empty-to-avoid-conflict-with-guava?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jspecify/jspecify@1.0.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.j2objc/j2objc-annotations@3.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.activation/javax.activation@1.2.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.21.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/james-server-jetty@3.4.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.james/james-core@3.4.0?type=jar",
+        "pkg:maven/org.apache.james/james-server-util@3.4.0?type=jar",
+        "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar",
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/commons-beanutils/commons-beanutils@1.11.0?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-server@12.0.31?type=jar",
+        "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar",
+        "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/james-server-util@3.4.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.13?type=jar",
+        "pkg:maven/com.github.fge/throwing-lambdas@0.5.0?type=jar",
+        "pkg:maven/com.github.steveash.guavate/guavate@1.0.0?type=jar",
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/com.ibm.icu/icu4j@64.2?type=jar",
+        "pkg:maven/com.sun.mail/javax.mail@1.6.2?type=jar",
+        "pkg:maven/commons-io/commons-io@2.21.0?type=jar",
+        "pkg:maven/io.projectreactor/reactor-core@3.2.11.RELEASE?type=jar",
+        "pkg:maven/javax.inject/javax.inject@1?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/apache-mime4j-dom@0.8.13?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.james/apache-mime4j-core@0.8.13?type=jar",
+        "pkg:maven/commons-io/commons-io@2.21.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.james/apache-mime4j-core@0.8.13?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-io/commons-io@2.21.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.ibm.icu/icu4j@64.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/io.projectreactor/reactor-core@3.2.11.RELEASE?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.reactivestreams/reactive-streams@1.0.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.reactivestreams/reactive-streams@1.0.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.inject/javax.inject@1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-beanutils/commons-beanutils@1.11.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/commons-logging/commons-logging@1.3.5?type=jar",
+        "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/commons-logging/commons-logging@1.3.5?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-collections/commons-collections@3.2.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-util@12.0.31?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jetty/jetty-server@12.0.31?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.jetty/jetty-http@12.0.31?type=jar",
+        "pkg:maven/org.eclipse.jetty/jetty-io@12.0.31?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/jcl-over-slf4j@2.0.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/log4j-over-slf4j@2.0.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.20?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-guava@2.9.9?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.guava/guava@33.5.0-jre?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.fasterxml.jackson.datatype/jackson-datatype-jdk8@2.9.9?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.20.1?type=jar",
+        "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.20.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.subethamail/subethasmtp@3.1.7?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.mail/mail@1.4.4?type=jar",
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar",
+        "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.mail/mail@1.4.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.findbugs/jsr305@1.3.9?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.google.code.gson/gson@2.13.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.google.errorprone/error_prone_annotations@2.41.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/jul-to-slf4j@2.0.17?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.5.21?type=jar",
+      "dependsOn" : [
+        "pkg:maven/ch.qos.logback/logback-core@1.5.21?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.17?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.5.21?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

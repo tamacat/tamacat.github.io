@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom serialNumber="urn:uuid:8201550c-5f8c-4b19-a200-e96711b4ac6a" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+<bom serialNumber="urn:uuid:e8db7d14-3378-415f-848e-8a2b556a3dbc" version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
   <metadata>
-    <timestamp>2026-08-29T13:39:28Z</timestamp>
+    <timestamp>2026-08-31T23:25:09Z</timestamp>
     <tools>
       <tool>
         <vendor>OWASP Foundation</vendor>
@@ -463,6 +463,109 @@
       <purl>pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar</purl>
       <externalReferences><reference type="website"><url>http://logback.qos.ch/logback-core</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>https://github.com/qos-ch/logback/logback-core</url></reference></externalReferences>
     </component>
+    <component type="library" bom-ref="pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar">
+      <group>net.logstash.logback</group>
+      <name>logstash-logback-encoder</name>
+      <version>9.0</version>
+      <description>Provides logback encoders, layouts, and appenders to log in JSON and other formats supported by Jackson</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">2fc7495427751780c3742330a4f11523</hash>
+        <hash alg="SHA-1">3a130930dcc447f399a491e85fdf3998685f1091</hash>
+        <hash alg="SHA-256">6b4b1157dcd4fdb59ce74d48330a08988725420f2fac2d882200c0cb3ffe0a7d</hash>
+        <hash alg="SHA-512">96b2d163d6cad4c4808fa4b7d3401946db970d4941e9144a4afa8ac7df0f61ea481e04478c805315c8f9f458efd05364b07d5655a8d55ce211fbeacc352ea0f0</hash>
+        <hash alg="SHA-384">0e734bc78618774a1a0baa18389c7881fd7f23850423d1e024a84cfac232272b7a1d0b4c55bf85861c0567babf1eb6d8</hash>
+        <hash alg="SHA3-384">5c5a8666462e2f1baeb50405df6d2772d6e63e626f49a3394e8dbb1fc465dbe47e57d3b1babd489386eb0806d40ef15b</hash>
+        <hash alg="SHA3-256">ba9190fb8985d4f3e08f3ddd901448d92d5692d78dae2f27177ad491056aa66f</hash>
+        <hash alg="SHA3-512">b0e0fa51e2e48bcaa9d320c0e2b7c733366bc370ade4c8a484ccc7e7a98fbb48a405795be61090b2fd89ad669ca4c14a54f0aea04c51918eba1fbb463f3efac8</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+          <url>https://opensource.org/licenses/MIT</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/logfellow/logstash-logback-encoder</url></reference><reference type="vcs"><url>https://github.com/logfellow/logstash-logback-encoder</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>tools.jackson.core</group>
+      <name>jackson-databind</name>
+      <version>3.2.2</version>
+      <description>General data-binding functionality for Jackson: works on core streaming API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">e3087129e1319032032eab489831d284</hash>
+        <hash alg="SHA-1">7415dfebcdfed0af627a087ed175e7ab08bb12e6</hash>
+        <hash alg="SHA-256">d27509f990d990fc779a01f3f612005ff6c67dc3bb0a720f5f4d9b2f5c713401</hash>
+        <hash alg="SHA-512">8c3fd597e81e437ece1f83e70c147408627c46352e62c39a491294b1e96164b4b5759c846e7513ca5c34c42ce7cd98adbd5812d5f4b0437171f3e0ec3eca71b9</hash>
+        <hash alg="SHA-384">83b06db15784a90f52d001f23eafcbbdedbcc636a5e4c43345f222d6aa1347da143d6034ba6912b18905aabc66036c5f</hash>
+        <hash alg="SHA3-384">73557c50fc44fe84bdab0b74344204359b6f1f1d29083dd6248c20376d7352f5c3bfe8342dbbdfb4c21fa4523ef329c7</hash>
+        <hash alg="SHA3-256">d4147b7e5947acbfc8f3535a8a678fe76dddb758482add51496ea46eb333dac3</hash>
+        <hash alg="SHA3-512">d72c63316e59221b72533fa69434f3eaf13cd69c7b92914676a99fe0395cab2fc203fd8653f5a198823249005aa88ac638685b330a613ea6817a58e7a551513e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://central.sonatype.com/api/v1/publisher</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-databind/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/jackson-databind</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>com.fasterxml.jackson.core</group>
+      <name>jackson-annotations</name>
+      <version>2.22</version>
+      <description>Core annotations used for value types, used by Jackson data binding package.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">04c11c456fd1e21b9a21c25c665109cc</hash>
+        <hash alg="SHA-1">15c67f9498d6934cff9510fc70c5a12e52290457</hash>
+        <hash alg="SHA-256">21ddb598807d3a51a876704eb979d9296e1c6a6f47ab1826ff88c6d6a127a2d0</hash>
+        <hash alg="SHA-512">63b597ec02b4e31c57266d9b96f05f301f217bc12ffb7ba046a5658d2829728930a559947b98eb6c3cc448413a96b4939427aa669ae1e2dc3597ab5d5d287f9f</hash>
+        <hash alg="SHA-384">35b6fe651afeed54d1e6f7a39ac6cf6fdbafacdf2e3bdff7b29b965ccb79a0c53342a56bf0ecea4d6c4c4651b1d6aa19</hash>
+        <hash alg="SHA3-384">72267dc54c4175c42ca0dd430a87b12cc68619a8777be2048e1d2f0747db884a568b5c346c77c9c8c0714ab96018f5f7</hash>
+        <hash alg="SHA3-256">6bfc7b4ba70779fe5f0b1e2af585abab982f7929a68beb2c0e62ea2e2a321de0</hash>
+        <hash alg="SHA3-512">3f1bdfa32f7df76ac14cd2a3e689b65066fa0a6a760a9b8b1121773bb1b043a44587d4148c67f361dc6c630e6b31f29b2691a57d47caabea5ca23ae44af34a5e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson</url></reference><reference type="distribution"><url>https://central.sonatype.com/api/v1/publisher</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-annotations/issues</url></reference><reference type="vcs"><url>https://github.com/FasterXML/jackson-annotations</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar">
+      <publisher>FasterXML</publisher>
+      <group>tools.jackson.core</group>
+      <name>jackson-core</name>
+      <version>3.2.2</version>
+      <description>Core Jackson processing abstractions (aka Streaming API), implementation for JSON</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">c967c177625d111be4ab088bd57a01e7</hash>
+        <hash alg="SHA-1">33448a192d5b662438c859a57daf0f3e8ad9da4b</hash>
+        <hash alg="SHA-256">93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca</hash>
+        <hash alg="SHA-512">90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb</hash>
+        <hash alg="SHA-384">3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc</hash>
+        <hash alg="SHA3-384">20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f</hash>
+        <hash alg="SHA3-256">2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee</hash>
+        <hash alg="SHA3-512">c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/FasterXML/jackson-core</url></reference><reference type="distribution"><url>https://central.sonatype.com/api/v1/publisher</url></reference><reference type="issue-tracker"><url>https://github.com/FasterXML/jackson-core/issues</url></reference><reference type="vcs"><url>http://github.com/FasterXML/jackson-core</url></reference></externalReferences>
+    </component>
   </components>
   <dependencies>
     <dependency ref="pkg:maven/org.tamacat/tamacat-httpd@2.0-tc11?type=jar">
@@ -473,6 +576,8 @@
       <dependency ref="pkg:maven/org.apache.velocity/velocity-engine-core@2.4.1?type=jar"/>
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar"/>
       <dependency ref="pkg:maven/ch.qos.logback/logback-classic@1.6.3?type=jar"/>
+      <dependency ref="pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar"/>
+      <dependency ref="pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta2?type=jar"/>
     <dependency ref="pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE?type=jar">
@@ -509,5 +614,14 @@
       <dependency ref="pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar"/>
     </dependency>
     <dependency ref="pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar"/>
+    <dependency ref="pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar">
+      <dependency ref="pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar">
+      <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar"/>
+      <dependency ref="pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar"/>
+    <dependency ref="pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar"/>
   </dependencies>
 </bom>

@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:f40f0eaf-5d95-4656-9155-87295e4df5d0",
+  "serialNumber" : "urn:uuid:5d463684-ed0a-47d6-bd54-fcf6cf0d4bff",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-09-15T16:01:02Z",
+    "timestamp" : "2026-09-26T05:20:14Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -87,41 +87,41 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.httpcomponents.core5",
       "name" : "httpcore5",
-      "version" : "5.5-beta2",
+      "version" : "5.5-beta3",
       "description" : "Apache HttpComponents HTTP/1.1 core components",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "6d6fa337b2a072d4a7b7a19c627f60d1"
+          "content" : "b9e9a1572e3d57b6bf253f3aa0221ddf"
         },
         {
           "alg" : "SHA-1",
-          "content" : "89b76c97d0be14ef3b8e832e40e481d9ecf3cdaa"
+          "content" : "f201cfb7f8744b0a9f56fa3f5e03e5e505840428"
         },
         {
           "alg" : "SHA-256",
-          "content" : "99c73578c5100e9df662cf2f677a9bc2fa1f30aeb50be39eeb12abbe71e5efde"
+          "content" : "edfe522ace81b29f54d84163e4cda63a2a7f1044815016262ac92a3a2191a79f"
         },
         {
           "alg" : "SHA-512",
-          "content" : "00ad8cdb45b5e88f7b412538c5e81d310da9b06a63d0197c170da27920839e9649e2390f123276c3fcab2ccfe7c32724821433279dc1609f4c3d9cd9a16692cb"
+          "content" : "71a757a8da91e9a46c78cdcba0d8af5282d39a6e8aeb38507e0d20f997b08cdf4c6a130dddc346f0d7327c48a48a13a2236fc2df61a0ff79859159dee444b45f"
         },
         {
           "alg" : "SHA-384",
-          "content" : "67a8a9de689552a9f5b0467cc3931584f0da2996d23804d92448c1367350b8a62f429b2be476f641284bf267cc2ad74e"
+          "content" : "bd77ba8301496ff29df120a33089c6a109cc3240fa623be1a473e2aee1e3c8a2761d1529e5718f61ca046e9232047283"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "43daee2f220c30f9f06655f400b877b4654a79184c3efda76f7428965530a61c667d4362ae2beeb65c49367751aa4023"
+          "content" : "23787b3bab2c40292cd4ce65a912d19500cd20457d37ac51e80a570cdebd788a67c109fa15f2c594d54d1ebd1b1745b3"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "9f59c7498ed2b80a37287541eac7ee872aeec5baabae6977b7e910551a7bc82d"
+          "content" : "5f8790fd23648df924e9cb27095ac47605285056f72dc6a450e3cbb09c2ea223"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "d2a5277aee84d68259e8f544f0c9d266337f6155abb67e193deb98e7fc524175fff27c530add44c3213949921bcda986f01ada93d148d702944dba8c84ba8501"
+          "content" : "255a6e0a39d21392cde112d1a58bfe415853460d0d21e19a6f93d55d091c8467214a0cb69efb967eb90a1f1b03450dfba3beec55212d3254574678a6f3df3958"
         }
       ],
       "licenses" : [
@@ -131,11 +131,11 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta2?type=jar",
+      "purl" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta3?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://hc.apache.org/httpcomponents-core-5.5.x/5.5-beta2/httpcore5/"
+          "url" : "https://hc.apache.org/httpcomponents-core-5.5.x/5.5-beta3/httpcore5/"
         },
         {
           "type" : "distribution",
@@ -151,11 +151,11 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/apache/httpcomponents-core/tree/5.5-beta2/httpcore5"
+          "url" : "https://github.com/apache/httpcomponents-core/tree/5.5-beta3/httpcore5"
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta2?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta3?type=jar"
     },
     {
       "publisher" : "Thymeleaf",
@@ -951,41 +951,41 @@
       "publisher" : "QOS.ch",
       "group" : "org.slf4j",
       "name" : "slf4j-api",
-      "version" : "2.0.19",
+      "version" : "2.0.20",
       "description" : "The slf4j API",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "1ca3a2acac3d5947b37d9b5536c55829"
+          "content" : "a7a6798aa78b29152479f89565f57446"
         },
         {
           "alg" : "SHA-1",
-          "content" : "efad9817997b3a6ce9e058f92e612917a744c290"
+          "content" : "7fea9d92ba67e9b3c8f03515fb202b86a1fe44f6"
         },
         {
           "alg" : "SHA-256",
-          "content" : "e91ff6d720609e7a194ffe758c3ed5c84e798617ae07b0a0f6a4fe229741b4bb"
+          "content" : "7e1446499b359675d8aabe6af2de86b85e72ae8a2a932c0b40d0e5ba57097439"
         },
         {
           "alg" : "SHA-512",
-          "content" : "627253cf27192750fd5ff84622526ac04f6848829adccd807d485a971bb74e83e47539214a054b8c129f3608cbc6450f2076000ab075b44a1b2dc7b74f592857"
+          "content" : "6abf6218c2558a0059f35cecc24db3ef1552dbccdfb8f32d6c9d1d8b11fd545405e04e79673219d19e17b99ca6a2a3da7d92006bcaedaa15646bf07737115d17"
         },
         {
           "alg" : "SHA-384",
-          "content" : "ae23be04ee2e1c1315184c533190d44acb5f01d9a812dda81c928667401ad8e166e780f451d027a89b2d2dce94c61d02"
+          "content" : "26e4fcbbda8d1037d722e04af82efacf58e28ab93b002921eadb426387c61031d80c9574f45f6a42b423b550424b9323"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "03745b6475e8b9d85e0074ce0e0e6f94f3fead8eeaae857278a91f236b349dbfa5a0c1df3a6cdeea63d0d16a947ac5df"
+          "content" : "2fbe14046e3b0ffc759d8fd91cccd6913174de77085e294a10375fc453427c040b4a0b4c3d003cc1cee8263013513f31"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "dfb417ec7e1febf8cdc4ac8b3eb495fe709caf163a98db0af9385b3ece464688"
+          "content" : "3514a97b9dbec95fe329f277628bc4b2c542c5ec33727aa781d590d5dcfad3d9"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "2225edddf8aac803c27b39872250dadc394da3facd2520fe50b50db86a3f0a571987291fd3d646ccb9a178890dbfdd385f1139e47e62ce0052f6834b448c2194"
+          "content" : "0dcb60d4abbe2b2474585b0512d3c83c993e79872dfb49ae1880468cb875898e1eeb71d05e7537ad057f8ca666007aa85c0f51d4e272432cd30e320c0710908e"
         }
       ],
       "licenses" : [
@@ -996,7 +996,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar",
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1012,47 +1012,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar"
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
     },
     {
       "publisher" : "QOS.ch",
       "group" : "ch.qos.logback",
       "name" : "logback-classic",
-      "version" : "1.6.3",
+      "version" : "1.6.4",
       "description" : "logback-classic module",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c4c3210a25faea352ecfe9ea2c219c14"
+          "content" : "0d8af78d22a485a930b0eedc039fbd4b"
         },
         {
           "alg" : "SHA-1",
-          "content" : "a8fc332633a9da2e543afb20357b7a015437f0a9"
+          "content" : "f244bc79f26869efa8a4efc6d40fae6b48edd4ce"
         },
         {
           "alg" : "SHA-256",
-          "content" : "beebede8db065fe1b72909ecc66bb49acda618901635d86c25fce14a5915e37e"
+          "content" : "16ccdfd1847eca169d5651c5f799ea990472350e0c38f68fd6bc47d705ef4a0a"
         },
         {
           "alg" : "SHA-512",
-          "content" : "83c7d59395fc743517a550a5f7685c1370e794e6d356b2433ba93d8951666cfdc670e5946f1428cfc7e7442390f3dfd4e7ebfb78ee6d328132ef3de283b513f0"
+          "content" : "4ea2274ac2701219db54a4447bfe22de39784ee8b8b8412b6567942a28223752086f0aefaf470b20366353d7f77df136a8b3c5565ddc2579e6bdaefddd1e7166"
         },
         {
           "alg" : "SHA-384",
-          "content" : "08243509039fafe53ce9dd7c845569aac4933cdaeda5a7d712cf329133cfed184ed90b2250d8ac88b07f03289e14316e"
+          "content" : "7ff8f67fdf6a90902319fe4415619b230dd6399fff5e2db78d08cbd1d59f742b4aaa7d1c78cdc5d9d5926e52cbc2b5a6"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "49e0db4ff54505c246e5519d6c79a5a12342e7b977ca418c00fae053800e85f5454bcdbc5e938575f26d6989a090c47d"
+          "content" : "e43ff8901207a457bafbc2ca08bd3a7474544dc9ebc1d8a67d6049b4b0b8aba77b758b72c853e439960bcefeabe9db25"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "a16c4ad2df63044fc0eebe929a9f10cca43b6d5866bd645de553431c1234adc8"
+          "content" : "dec4db2ba36b1489ef0df8492451561167401ec7a0cdf7cf750822fda0c293d7"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "edad66f09c2df54260ed9fba07234c9b245842516dda53d27251896eb4f073c76c4be29436e0aec78890cbe044015be90d47f47e5038acb8e352375f8f267875"
+          "content" : "214c766495312c6a4eebd98365d9ce0c5d16c6bffed8f44ed520af5dacc4e4aaeb7844251e87110b7a1de3d08238c1206d233cc3b0d95d2003935a409b75aa49"
         }
       ],
       "licenses" : [
@@ -1069,7 +1069,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.6.3?type=jar",
+      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1085,47 +1085,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.3?type=jar"
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar"
     },
     {
       "publisher" : "QOS.ch",
       "group" : "ch.qos.logback",
       "name" : "logback-core",
-      "version" : "1.6.3",
+      "version" : "1.6.4",
       "description" : "logback-core module",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "6d741138bccf87bb512572c44cc7f43f"
+          "content" : "cccf9f602d1dc7f987312ce7cd00034a"
         },
         {
           "alg" : "SHA-1",
-          "content" : "ae9a279c723035307735fc4daf527a9076ea3f77"
+          "content" : "abe12d3d8979438b02baf9fe2032016ed3f286b0"
         },
         {
           "alg" : "SHA-256",
-          "content" : "a6967a28c8b086dee75a694d2f6fb8830c71153539866d7d8af065c9b6df91e0"
+          "content" : "1b67779e224455ae7e00bd4ccadaf05c38531927ea4363f66412359373f2e9d7"
         },
         {
           "alg" : "SHA-512",
-          "content" : "0f03bad755657501c4123735952371bb4a9e8376b593563ff52c187de383969694cde24d50dd56e24ad72a52b8ea14943d4d547a0140c21a605483279ca6e762"
+          "content" : "0498feca8b6592df7f4db1cec18da68dc923c308bae7320588390a16cbec88b33c825c25b5f31de7206702c489b61fd72ef9a86ab0f33397b5d92f1d7066c34c"
         },
         {
           "alg" : "SHA-384",
-          "content" : "f6bd1ce34efff757d35535bc66fad88f9c56f0319046cf671e4172609a4de038ba4666540ad7600dafbbd0fe1f26348f"
+          "content" : "61d4510aa19beae17845d40d8ecbb6b50d59f5e212a097ede417f6509595e20f340b9cbc7fc872fe15456d2bcd95efa2"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "31735603ecfa8c2d647f4bf337a9825da87763bfdb07be74b2c01a5aaad78bbc9954a2d7a0992009c1f36dff03001ed5"
+          "content" : "79ed782aec3660ee2f691c6ce6fba206e7bd11cfef8268d84886d3db79938beb9d736727dcde2b425a1890cff96dc124"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "cf608f9478225a1fe9ed76de6f9adbf066cbada05bb89afbda9ce2734936ac5a"
+          "content" : "66181ba6937afe4d0234baa02670b110221b53000d5344b58a39c92b71708756"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "2867c47fd2e1084c19af22939b913571021cecd02a58df023ba81278310365ed941d4ea09514e9c6c236ba944a9010dcb0ab147cf64528c474a9570b42e208ff"
+          "content" : "f3482da340676590e74c5e708cb971465c98fdb6f85dac64d018f9dff17d3569fc614ba33ba72f4334639cca13fd6d57ffb4b418cc3ca0af5c558c9fe82840f9"
         }
       ],
       "licenses" : [
@@ -1142,7 +1142,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar",
+      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1158,7 +1158,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar"
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar"
     },
     {
       "group" : "net.logstash.logback",
@@ -1231,41 +1231,41 @@
       "publisher" : "FasterXML",
       "group" : "tools.jackson.core",
       "name" : "jackson-databind",
-      "version" : "3.2.2",
+      "version" : "3.2.3",
       "description" : "General data-binding functionality for Jackson: works on core streaming API",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "e3087129e1319032032eab489831d284"
+          "content" : "60c5fc1b2ac506e9acfde1662aa8fbaf"
         },
         {
           "alg" : "SHA-1",
-          "content" : "7415dfebcdfed0af627a087ed175e7ab08bb12e6"
+          "content" : "edb121f17d1a441732b15919f531e529c5cc76ec"
         },
         {
           "alg" : "SHA-256",
-          "content" : "d27509f990d990fc779a01f3f612005ff6c67dc3bb0a720f5f4d9b2f5c713401"
+          "content" : "235b72436af983857e44efa42449f4f0a2c571e69d6c5d9dd1253ae7d192dcf2"
         },
         {
           "alg" : "SHA-512",
-          "content" : "8c3fd597e81e437ece1f83e70c147408627c46352e62c39a491294b1e96164b4b5759c846e7513ca5c34c42ce7cd98adbd5812d5f4b0437171f3e0ec3eca71b9"
+          "content" : "72f4e366e0dc6fca769070d98131946fa79a45ba8d7c15be03916d8f2bfd5541ef90896b78bfdf36ad999e2f42d06d337b296b5996bb0fc0cccc6acb69e2514e"
         },
         {
           "alg" : "SHA-384",
-          "content" : "83b06db15784a90f52d001f23eafcbbdedbcc636a5e4c43345f222d6aa1347da143d6034ba6912b18905aabc66036c5f"
+          "content" : "12b53583bb5680904ea191a68f32ad7190847c7de806cae78de046d8df0df9c3cb46ed0c88a4131a01062eafcedbe0e5"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "73557c50fc44fe84bdab0b74344204359b6f1f1d29083dd6248c20376d7352f5c3bfe8342dbbdfb4c21fa4523ef329c7"
+          "content" : "3ffbfcaec1f312e450e64f7dac6117de4c716c8d136fd30236dcb47e2830b55ff1bcbd06331c60d5e6df1f0ad85927dd"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "d4147b7e5947acbfc8f3535a8a678fe76dddb758482add51496ea46eb333dac3"
+          "content" : "0f77f46f5862cb6fb7874c3bd6286dc365f3e37ac7a241762bdeb89b4cba63ac"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "d72c63316e59221b72533fa69434f3eaf13cd69c7b92914676a99fe0395cab2fc203fd8653f5a198823249005aa88ac638685b330a613ea6817a58e7a551513e"
+          "content" : "32c39b0c82a5b4994387e76b3096f8b6b75240a07ce442d2f66b74f014c47dad14e4b0b5c17ec866c450a9717a6be34dc1b3ad2201e244006a8378522468e388"
         }
       ],
       "licenses" : [
@@ -1275,7 +1275,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
+      "purl" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1295,7 +1295,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar"
+      "bom-ref" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar"
     },
     {
       "publisher" : "FasterXML",
@@ -1371,41 +1371,41 @@
       "publisher" : "FasterXML",
       "group" : "tools.jackson.core",
       "name" : "jackson-core",
-      "version" : "3.2.2",
+      "version" : "3.2.3",
       "description" : "Core Jackson processing abstractions (aka Streaming API), implementation for JSON",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c967c177625d111be4ab088bd57a01e7"
+          "content" : "2422ba3b4c39dc4a954620be4d6337df"
         },
         {
           "alg" : "SHA-1",
-          "content" : "33448a192d5b662438c859a57daf0f3e8ad9da4b"
+          "content" : "94d7dab7ac8e336a4c7a5ce36b8ca206bfde18c5"
         },
         {
           "alg" : "SHA-256",
-          "content" : "93d9090b8c505b2f942ad85dd5821e8c401bfbafafff11708a3fbe2ef9da18ca"
+          "content" : "a0c17e7e665a5e95c82f5fb45c0fec2ae3dc556c80f0016452c9c84cd23f3817"
         },
         {
           "alg" : "SHA-512",
-          "content" : "90ded06490bf1b92a183ec74db64bfb2be3147ce3acf3edacf671e0e9a37eaba2e24aeb115bdb9758f3770abc5853599d237b2362f87703f38a17ca2fb0a6bfb"
+          "content" : "052e1b0422e66a713c127dc47839d35c9b4b64edf230051608a3d05d4ae83f0dff84cdf845d2115d0a47f59b693abd368b3ef2be613a8545b64f80290cef8d1d"
         },
         {
           "alg" : "SHA-384",
-          "content" : "3ef62d6124c3b9c6da761795cfc4d1aa826b3e287891b6b7668471736d777a829e2f2edd9160422175f8a931bbf991bc"
+          "content" : "70c2fba9a91785dc098432dd6b6aa666454f2230234308c3a6d822122026cbc85e48f94c26c3945b6bb6171f4d33be0f"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "20142b1d90de185b7191ab207772a8b924b44b7c69b365dc290e359229b75ad44ad5aa9ebfdecc1268cb67526f51c82f"
+          "content" : "c7b9a2e46ee2a3d14e02325ca9a48b786fbe9b9024b66d4afa27488e8eef467fd28046795c424a70c817d1df312e5470"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "2ad515e5c6e6dbea749d76df71dec1956870899ec984f100a9e61868c9490cee"
+          "content" : "356b07d732d69d00fbd72876285cfbe4c5c0098113be3ca8151f82f32fa6dbba"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "c9d2a29458b5f9784c4b1bfad001c5b051670cb1e8abd413c203043363c4b339056f817f31c66be8b2aeb2c5e274f5ed182276f192b8aadf3a551c63bf7d7ed5"
+          "content" : "c6f11c9a9da0bce87f80b47d9f9763bb222e7cd06dfbd803c8c41cc5426cc87b4fa45c88b618ed612d34897c73ec04c8b5876927f28dc2ac1e156772bfb3ace0"
         }
       ],
       "licenses" : [
@@ -1415,7 +1415,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
+      "purl" : "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1435,26 +1435,26 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar"
+      "bom-ref" : "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar"
     }
   ],
   "dependencies" : [
     {
       "ref" : "pkg:maven/org.tamacat/tamacat-httpd@2.0-tc11.0.26?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta2?type=jar",
+        "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta3?type=jar",
         "pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE?type=jar",
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.26?type=jar",
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@11.0.26?type=jar",
         "pkg:maven/org.apache.velocity/velocity-engine-core@2.4.1?type=jar",
-        "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar",
-        "pkg:maven/ch.qos.logback/logback-classic@1.6.3?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
+        "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
         "pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar",
-        "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar"
+        "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta2?type=jar",
+      "ref" : "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta3?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1463,7 +1463,7 @@
         "pkg:maven/ognl/ognl@3.3.4?type=jar",
         "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
         "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar",
-        "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar"
+        "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
@@ -1485,7 +1485,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar",
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1518,7 +1518,7 @@
       "ref" : "pkg:maven/org.apache.velocity/velocity-engine-core@2.4.1?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar",
-        "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar"
+        "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
@@ -1526,27 +1526,27 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.3?type=jar",
+      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
       "dependsOn" : [
-        "pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar",
-        "pkg:maven/org.slf4j/slf4j-api@2.0.19?type=jar"
+        "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
+        "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.3?type=jar",
+      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
       "dependsOn" : [ ]
     },
     {
       "ref" : "pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar"
+        "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.2?type=jar",
+      "ref" : "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar",
       "dependsOn" : [
         "pkg:maven/com.fasterxml.jackson.core/jackson-annotations@2.22?type=jar",
-        "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar"
+        "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar"
       ]
     },
     {
@@ -1554,7 +1554,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/tools.jackson.core/jackson-core@3.2.2?type=jar",
+      "ref" : "pkg:maven/tools.jackson.core/jackson-core@3.2.3?type=jar",
       "dependsOn" : [ ]
     }
   ]

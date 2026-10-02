@@ -1,10 +1,10 @@
 {
   "bomFormat" : "CycloneDX",
   "specVersion" : "1.4",
-  "serialNumber" : "urn:uuid:5d463684-ed0a-47d6-bd54-fcf6cf0d4bff",
+  "serialNumber" : "urn:uuid:9719efc0-e488-41d8-ae9d-7c95096df29c",
   "version" : 1,
   "metadata" : {
-    "timestamp" : "2026-09-26T05:20:14Z",
+    "timestamp" : "2026-10-02T20:09:28Z",
     "tools" : [
       {
         "vendor" : "OWASP Foundation",
@@ -220,219 +220,6 @@
       "bom-ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE?type=jar"
     },
     {
-      "publisher" : "OpenSymphony",
-      "group" : "ognl",
-      "name" : "ognl",
-      "version" : "3.3.4",
-      "description" : "OGNL - Object Graph Navigation Library",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "1893dad14f3e7ddd95d211e1d3ca1a0f"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "1904789bdd96f226ad252a02f230be1015f4462b"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "47fdd450407ff09b57df02f466f9b4c7d32818962d65f9d98e445c8b4d047603"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "148d22eb5396b461e3348dd9671149f1e2d7092f6edc12f79ddd3738072d8e942f37f2f962aeccf3791480e32616a2d275e9a4c0119e21020e43a6bb78efba05"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "8823761231648dc81b070bf2afa5035aa7095f92008cb63578d25c6bf81d0bc7bd6edb9303a6c8887b8a76a5f2d73052"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "930eceb562c22be5316ac4ff048ed73e049ec77ebdc2e2f6a5e876f3d34a36b9509685b7b086f9fdc7f72c07af39ca3e"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "9924d1dd4a6d89910d01d98740a7399687c85d72922f8681f5fe5182fd3f9120"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "d0132d3ac907b8f5b09c0ceaeba51f4b2d23ad5a17a02f9f320105e7bb091ed68440219fe0655cae5f4dfc97ec8b7ff2224f0f9c3b921a411eb7311702b1c7b0"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/ognl/ognl@3.3.4?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://github.com/jkuhnert/ognl/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "http://jira.opensymphony.com/browse/OGNL"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/ognl/ognl@3.3.4?type=jar"
-    },
-    {
-      "publisher" : "Shigeru Chiba, www.javassist.org",
-      "group" : "org.javassist",
-      "name" : "javassist",
-      "version" : "3.29.0-GA",
-      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "aefc94eda66e54b96825ffc807cfbafd"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "d3959fa7e00bf04dbe519228a23213d2afb625d8"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "62d4065362e8969ce654f2b5541de1efb5b5bca6c146dbd38a595ea4df64cd31"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "e28e98381e47f3f1f904c01f510f2b764e402ae6142e670e1dffafb1ffc549b0c23dc40dcba07ced45f205437108bb1382c9555da57ca3853ce67a7e9cda67e9"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "e34a1a5350019f5f3b97de5aa966ba0b8e317f27792e164ac5df78f5b2f9a4264e054fd1815ba1d5eab90a8569f8d55c"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "563baaa9703ba286876d15b33d6e8a66805697d62a38dd5ebd5ae895e93f963a412e5b56121b2061f6e625cc5e055f9b"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "c69fc6cb86425ede7a11a91976ea239e75cb6914f7ee63bc6c2d922da4168ebe"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "5afeba114ea67519ec8f083e06ccba9098c09acc6f39152b8d8d6bf2183d031fca13c771a7f76981a5b4a98f57ce0783cbe68b58a361e7c642792d0a09ac0598"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "MPL-1.1"
-          }
-        },
-        {
-          "license" : {
-            "id" : "LGPL-2.1-only"
-          }
-        },
-        {
-          "license" : {
-            "id" : "Apache-2.0",
-            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "http://www.javassist.org/"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://jira.jboss.org/jira/browse/JASSIST/"
-        },
-        {
-          "type" : "vcs",
-          "url" : "scm:git:git@github.com:jboss-javassist/javassist.git"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar"
-    },
-    {
-      "publisher" : "The ATTOPARSER team",
-      "group" : "org.attoparser",
-      "name" : "attoparser",
-      "version" : "2.0.7.RELEASE",
-      "description" : "Powerful, fast and easy to use HTML and XML parser for Java",
-      "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "fd09ceba7061e05460e74e0e1e64f233"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "e5d0e988d9124139d645bb5872b24dfa23e283cc"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "75dd1c045492bff8e1963aabb28bfe903c2064e11e27fe2f0f0aff1ad3d84476"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "010a118a86e72ef9018cca65655e93be778039277d0a2aea5676eda4483b0a189d65b3fa944a9af2105dda502c3aebc3c1ab9b64c1a3207aa140c4d2fd054a8b"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "62c6b9b08e9a2b853095d8b111dda1c5fc4342bc87020e3dab0ac53e897127653f2e0197d8d4d75e8b241883de43f65a"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "a3bdffc2e9dc90b04a5c6dc1937debd7ce3d7ccfab9bbac4dba4d95efab928d20ab8a94d481214c9b304430fac3451d4"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "e3f91ced9dd24f9babae34b35db9a42511d6fb22ea1e60ab5456954ad8fa5c4a"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "aa55fb1d0275582cfb972b0efdd9a8d16f111f3d363315555c3b1cccb5050c993dfaac55b910adaaec6a325ff6703875dc91d03eb05e907faa1a8f2e330b2bd5"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "Apache-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://www.attoparser.org"
-        },
-        {
-          "type" : "distribution",
-          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2"
-        },
-        {
-          "type" : "vcs",
-          "url" : "scm:git:git@github.com:attoparser/attoparser.git"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar"
-    },
-    {
       "publisher" : "The UNBESCAPE team",
       "group" : "org.unbescape",
       "name" : "unbescape",
@@ -497,6 +284,277 @@
       ],
       "type" : "library",
       "bom-ref" : "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar"
+    },
+    {
+      "group" : "ognl",
+      "name" : "ognl",
+      "version" : "3.4.14",
+      "description" : "OGNL - Object Graph Navigation Library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e761c78030c6995e316245deed7336f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "2c7be187dc88ef648fb97236b1ae85a17c4a077c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b125d46537244457821f93491399cf277cf635001304c0442373769cda999155"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d3daa8bc9b0f4718391686e64b46e46cea783641c1e6808f07c1eef7c3e9142193d45f5146193af6986edbda0bf64cf94a69be2f02ea71f9b810428bcda6fe91"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "804d46403010a851677abc17633b9c9df1c69231df0ec80604cc4616b5eaf961b46fcef3fad65fa7733f870970899a55"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ff74c49290d624cbd51028f254e37b6e3b2ec1d16bc8c9d1bf5bda73f30d323319db9b81abf6e7a1639204be07de5428"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4d34f3641bfc716f35aed5b8bbe616f84462d22fb507495d8720096ec85af8f8"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a6faa2064119ae7b8a4a4a3715b97cbd4ba5930439ef43d0fef8e2caa4d4e791cdd9450f33fd4ea55053507e28bfeba2e4c4cc36af537910fedd89eb8ce5893a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/ognl/ognl@3.4.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/orphan-oss/ognl/orphan/ognl/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/orphan-oss/ognl/issues"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/ognl/ognl@3.4.14?type=jar"
+    },
+    {
+      "publisher" : "Shigeru Chiba, www.javassist.org",
+      "group" : "org.javassist",
+      "name" : "javassist",
+      "version" : "3.33.0-GA",
+      "description" : "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation simple. It is a class library for editing bytecodes in Java.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6751a24bfc86d2c00ad571d316723b3e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "20680ccee671059525390c9050f134cc857baed3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1620478adc5f4d2eccd356e59513c270f1508bed53ce75deffb3107b7b43db2c"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ca22ee9eccb10cc61c2f83fe336f814ca9473081dc75622db20541be0d701e1f1c3d933ca43469cea953ff66e3731b4923f3542a3ba2e3a237d06ec47684546f"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c35ddd469d6c1496173932fd3e00654333be93229ca45cbf4b90f482d56acb4a518e26a1a47f0e46be289b3fa60cb7f5"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0242412d096edb98e9f2b419c6835b75e0015dcc2bfa934efabc1eca00d970a7502ed91d233d5b08f10d87e141fc2bbb"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d6758cbb73cf9dc9cd125a751d950d2e9764329dc8c55476c1bddb2f95ad2738"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "29d39d186bd0ea031979c071b4439bf14e6c6e1779c4825f97e366c7f448aa832c66d434baea0eb1c2a02461cdee9abeaa077a66c0c9237fc2279200f17cbb89"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MPL-1.1"
+          }
+        },
+        {
+          "license" : {
+            "id" : "LGPL-2.1-only"
+          }
+        },
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.javassist/javassist@3.33.0-GA?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.javassist.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://jira.jboss.org/jira/browse/JASSIST/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "scm:git:git@github.com:jboss-javassist/javassist.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.javassist/javassist@3.33.0-GA?type=jar"
+    },
+    {
+      "publisher" : "Attoparser",
+      "group" : "org.attoparser",
+      "name" : "attoparser",
+      "version" : "2.0.9.RELEASE",
+      "description" : "Powerful, fast and easy to use HTML and XML parser for Java",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c1c9283297404dfc2372853dc58ec17e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "88745098fb027ca61cb37eb292b183d3aabfb9ce"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e0915e564346696639fae612745301996d26ab8e95ad7846a2331abc078d52b1"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4c0da169e7aa99eaae49e220d820b98472bdc42509d44d8b869a9d5ecf1d2c9018e682102ba9df94e5a85b030d2bd02fb7d08a54883b20aa6661ac033c6a498b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4f2ab57fec8c1555733ed98785dbf949cdad63589e4d0bd4a8956daae7f4dc463041cba801ad64775e05d4b98fc01337"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "59cd7eac5f4db2d40a09245f66ac470657e1a61ce25c478deadcd2a8de9abefa1b17e05bcbb81831cdec471d795c451d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "e8480a3fbd45abd9a0b7e5b264c6f63178725e4075093919ab6cb758e59d9ef7"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "3c509792e9354305a7330321b5fd18499ae8262711038ab531d9a65f591f97e6b69fa416254b88bae03222935e8f74e86566a6ab0b4aff450025111285d134ed"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.attoparser/attoparser@2.0.9.RELEASE?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://www.attoparser.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/attoparser/attoparser"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.attoparser/attoparser@2.0.9.RELEASE?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.jdt",
+      "name" : "ecj",
+      "version" : "3.46.100",
+      "description" : "Eclipse Compiler for Java(TM)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "56b7091e6cf1fb7af9429e3fd7a89858"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a06c482cdb8601a94328aae668c7236e3818fbe9"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "74c93172475fee0cd4e6eefb44233516dd40525642da35d009146d97ea598229"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "080bb403adb3b88b5b5f382388922425de5274f7729f0a94702f0e2a516c7d13c6740faab1cb20786b1dda0c5da933aa9b842f7c64867414ff75fa668ea06b09"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "58eee5dd11139f27349c6bcd4b8518e89023994c9d16170cdfbf62e4f22ef2925217a9ea4abeac666169b14bf312d6c9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d681c6c089cad084a70f11bd007405f0f038c59222746e40bb4f27ba56d50c780181f3bbe3607766bcc008e49eccf407"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "527ce6b32a2b161baf620fc60709a3ae8b350b610695dd964258ce2186e42b97"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0c61defd0fd8095c2c52229acda348e966d7c390fef8af44ab49a9ed6d198f980154e710140cbbec7b9a04c9afaad8d697809be952090bf84615819f97453df3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "EPL-2.0",
+            "url" : "https://www.eclipse.org/legal/epl-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.jdt/ecj@3.46.100?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/issues"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/8634087ceb99426b43565db17d8c1456d9e4d782/org.eclipse.jdt.core.compiler.batch"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.jdt/ecj@3.46.100?type=jar"
     },
     {
       "group" : "org.apache.tomcat.embed",
@@ -727,73 +785,6 @@
       "bom-ref" : "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.26?type=jar"
     },
     {
-      "publisher" : "Eclipse Foundation",
-      "group" : "org.eclipse.jdt",
-      "name" : "ecj",
-      "version" : "3.46.0",
-      "description" : "Eclipse Compiler for Java(TM)",
-      "scope" : "optional",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "7afdf5f33064b2dcdc347e1fe230c7a2"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "e962128cf16c864b61633b5a1c75709b0ba2f017"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "d0d43f8e2d7003e5efed612e2cbb5f01870043397d8f1bbe536fd9128f4fcbf7"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "0b2c799e20dbdd074272faf2aed454186f0ad25759c09963350bceea8e9bec0ad9a04693115401cab6a1c9122b94aba6d79d741eef2e003a4149b2fe00f6f158"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "b44713f899756daffe027c40958d1057dc27fe0451a1a55b4713c540ecb5440f35d586bcc28382fed314d41c52f8010d"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "e8f7281004214f513c66fcd1a705410e43df798bb2f0fee40552d6432ae5d818596e655f91fe8e118dda464b76ff0568"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "47f0dcb77fff1ca20bd88dfb40f38d5425c2eba66615f8e08a79acd74b40b52e"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "39d18fec561a986588dd28eb15933d372ec7464007211a91cb0922fd1e414ab9f803ae9296f873ac4963414947b7141b0e0fd56a2d7bc8c449dfd09e0375793b"
-        }
-      ],
-      "licenses" : [
-        {
-          "license" : {
-            "id" : "EPL-2.0",
-            "url" : "https://www.eclipse.org/legal/epl-2.0"
-          }
-        }
-      ],
-      "purl" : "pkg:maven/org.eclipse.jdt/ecj@3.46.0?type=jar",
-      "externalReferences" : [
-        {
-          "type" : "website",
-          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/"
-        },
-        {
-          "type" : "issue-tracker",
-          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/issues"
-        },
-        {
-          "type" : "vcs",
-          "url" : "https://github.com/eclipse-jdt/eclipse.jdt.core/tree/ef3d6f2115df89d7964bc13aa363ab8d6bd21256/org.eclipse.jdt.core.compiler.batch"
-        }
-      ],
-      "type" : "library",
-      "bom-ref" : "pkg:maven/org.eclipse.jdt/ecj@3.46.0?type=jar"
-    },
-    {
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.velocity",
       "name" : "velocity-engine-core",
@@ -872,41 +863,41 @@
       "publisher" : "The Apache Software Foundation",
       "group" : "org.apache.commons",
       "name" : "commons-lang3",
-      "version" : "3.17.0",
-      "description" : "Apache Commons Lang, a package of Java utility classes for the classes that are in java.lang's hierarchy, or are considered to be so standard as to justify existence in java.lang. The code is tested using the latest revision of the JDK for supported LTS releases: 8, 11, 17 and 21 currently. See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml Please ensure your build environment is up-to-date and kindly report any build issues.",
-      "scope" : "optional",
+      "version" : "3.21.0",
+      "description" : "Apache Commons Lang is a package of Java utility classes for the Java lang packages, classes that could be considered standard to justify their existence in java.lang. The code is tested using the latest revision of the JDK for supported LTS releases: 8, 11, 17, 21, and 25. See https://github.com/apache/commons-lang/blob/master/.github/workflows/maven.yml Please ensure your build environment is up-to-date and kindly report any build issues. Starting with Commons Lang 3.9, we target Java 8 and use those features. For advice on upgrading from 2.x to 3.x, see https://commons.apache.org/lang/article3_0.html",
+      "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "7730df72b7fdff4a3a32d89a314f826a"
+          "content" : "74a94a62f74cf1566767a085b3b9c758"
         },
         {
           "alg" : "SHA-1",
-          "content" : "b17d2136f0460dcc0d2016ceefca8723bdf4ee70"
+          "content" : "7bad013a5acee0a078d75fc352a906baa57acb74"
         },
         {
           "alg" : "SHA-256",
-          "content" : "6ee731df5c8e5a2976a1ca023b6bb320ea8d3539fbe64c8a1d5cb765127c33b4"
+          "content" : "a2af247ec4db6eb8947e18e23e0433e4871a7c5d0a40e1f92e46ede54ae1defe"
         },
         {
           "alg" : "SHA-512",
-          "content" : "dfd5ff7fe7f852b9caabc81e5a00e20616f98405085f059b64dc2121feb5fa6cb327e11a3d2f954c079811c31f6fd484e90f932d45078796fbfa7dbf1f1eb5aa"
+          "content" : "839bd4a0e63a82334c46f7acad520dac56900c8c4ea3e663811c1e8863de416df2bb8ff334c407caf6cb6d20fb892c6c730d7f271bd59c5c973611ed2f890b37"
         },
         {
           "alg" : "SHA-384",
-          "content" : "c6ed55a5c2b05332890a43a3ea73b30f42dc23c92ebd054a8b0d29ca8f49fb9361f7325cfa90715be457804b087221b5"
+          "content" : "39615b3093cf020161bcdfa6813d0d608892b6a69b6e7d413bc27a9b8c2e4500cb4d0a64f1b2ffd9d0c3b9f611687872"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "bb9e148a87928c3053bcccee361d5d8d81b3c6ea41a390d96c615afd242409f909361c945f3b4238a297e4ebb2ed413b"
+          "content" : "54b8b1d35b30254d17751cd0ea42fd51cb8d6511c9aa761b76752396af67e14b16bce998aa8d31da9faa7846ee9cd478"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "f28f34565f25dd65fd1a47916e917df9e3ff2c6721897ea57391a238227c96a2"
+          "content" : "d4c089ab0bf23ff52bfb24f2bb9e2cb629b66efcd43fa263fe4ae5affcbc567f"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "4c8e7a5f10d091bb240e7eb59287d0e4e4420e7a2d2be2b8060111e479540ffae89040377c99ec7f458cd54e1ac0ed0778951cd1f34d5d90571b8a303fbb9baf"
+          "content" : "8bf09495990791415be6bbb9f72f2f3f40f4517b2b56501329e8c5ca716381c1858ea75a734b86346b37d8f5a7697f3361c204f3affe3f8fee656ee68a72480f"
         }
       ],
       "licenses" : [
@@ -917,7 +908,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar",
+      "purl" : "pkg:maven/org.apache.commons/commons-lang3@3.21.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -925,7 +916,7 @@
         },
         {
           "type" : "build-system",
-          "url" : "https://github.com/apache/commons-parent/actions"
+          "url" : "https://github.com/apache/commons-lang/actions"
         },
         {
           "type" : "distribution",
@@ -941,11 +932,11 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://gitbox.apache.org/repos/asf?p=commons-lang.git"
+          "url" : "https://gitbox.apache.org/repos/asf/commons-lang.git"
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar"
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-lang3@3.21.0?type=jar"
     },
     {
       "publisher" : "QOS.ch",
@@ -1018,41 +1009,41 @@
       "publisher" : "QOS.ch",
       "group" : "ch.qos.logback",
       "name" : "logback-classic",
-      "version" : "1.6.4",
+      "version" : "1.6.5",
       "description" : "logback-classic module",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "0d8af78d22a485a930b0eedc039fbd4b"
+          "content" : "5d3aac2618d86f4e2b0b079eb545ac09"
         },
         {
           "alg" : "SHA-1",
-          "content" : "f244bc79f26869efa8a4efc6d40fae6b48edd4ce"
+          "content" : "3a0959903d420ba1ca087100a34063938ac0602b"
         },
         {
           "alg" : "SHA-256",
-          "content" : "16ccdfd1847eca169d5651c5f799ea990472350e0c38f68fd6bc47d705ef4a0a"
+          "content" : "2e8c73aadad525e854af1ac95793af3dc75ecedd53c010ea2389de44c08e729b"
         },
         {
           "alg" : "SHA-512",
-          "content" : "4ea2274ac2701219db54a4447bfe22de39784ee8b8b8412b6567942a28223752086f0aefaf470b20366353d7f77df136a8b3c5565ddc2579e6bdaefddd1e7166"
+          "content" : "c81783a4214abe0ad805f8a827f368228dfcc828ede35af0dbd77576d422b407d5236048bb9f58b501900848a5fe419269bff3c5eaec202aee77a34abffb0a41"
         },
         {
           "alg" : "SHA-384",
-          "content" : "7ff8f67fdf6a90902319fe4415619b230dd6399fff5e2db78d08cbd1d59f742b4aaa7d1c78cdc5d9d5926e52cbc2b5a6"
+          "content" : "c00573ac23f8324f80c6fe682e466000ce1d57e054cd2ee01f6d8cb236070f51d3d55762b332dc2a036d25c6475cedcd"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "e43ff8901207a457bafbc2ca08bd3a7474544dc9ebc1d8a67d6049b4b0b8aba77b758b72c853e439960bcefeabe9db25"
+          "content" : "724aa2957186386463919e1e3a695fa3fbb9aa78d3e4ae689b04ec44833995ecca31ab2dea938d43101b560b3270b081"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "dec4db2ba36b1489ef0df8492451561167401ec7a0cdf7cf750822fda0c293d7"
+          "content" : "d0cb30910958c18a737fe92367e22af045354f64abbb9bddb0a6e9e1eb89afb9"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "214c766495312c6a4eebd98365d9ce0c5d16c6bffed8f44ed520af5dacc4e4aaeb7844251e87110b7a1de3d08238c1206d233cc3b0d95d2003935a409b75aa49"
+          "content" : "1c9f92bffbe897fa8e8902c5e42092aa6729a3a62faf8fb1b2d3fa92d956d2275836e4da700693a7d727486bf6aebf8a853dea666e2b67b3de62985bf97506be"
         }
       ],
       "licenses" : [
@@ -1069,7 +1060,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
+      "purl" : "pkg:maven/ch.qos.logback/logback-classic@1.6.5?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1085,47 +1076,47 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar"
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.5?type=jar"
     },
     {
       "publisher" : "QOS.ch",
       "group" : "ch.qos.logback",
       "name" : "logback-core",
-      "version" : "1.6.4",
+      "version" : "1.6.5",
       "description" : "logback-core module",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "cccf9f602d1dc7f987312ce7cd00034a"
+          "content" : "c1fd0c330f33ec7c2e35f18f06d1c2f9"
         },
         {
           "alg" : "SHA-1",
-          "content" : "abe12d3d8979438b02baf9fe2032016ed3f286b0"
+          "content" : "821f011acaffb543404e94bc35f651b483a5a161"
         },
         {
           "alg" : "SHA-256",
-          "content" : "1b67779e224455ae7e00bd4ccadaf05c38531927ea4363f66412359373f2e9d7"
+          "content" : "03dcbf053b40166849b8eb0a30cbde40c04a448820e9a7589c4b0a2ec3a9db63"
         },
         {
           "alg" : "SHA-512",
-          "content" : "0498feca8b6592df7f4db1cec18da68dc923c308bae7320588390a16cbec88b33c825c25b5f31de7206702c489b61fd72ef9a86ab0f33397b5d92f1d7066c34c"
+          "content" : "bfb5bc79e3621cee4693a15e9866ea5500dda9ca370de3349a5abc4d47cdda76229091dfc1ab1a2742564c5bcf40a304b804554173cd71f3eee6296116a41861"
         },
         {
           "alg" : "SHA-384",
-          "content" : "61d4510aa19beae17845d40d8ecbb6b50d59f5e212a097ede417f6509595e20f340b9cbc7fc872fe15456d2bcd95efa2"
+          "content" : "82744eaea67a2df1075c0407c369f279bea38c05de73b34d8634bcf50c1163449ad52894626f9b8e46afcb6a055b9dc9"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "79ed782aec3660ee2f691c6ce6fba206e7bd11cfef8268d84886d3db79938beb9d736727dcde2b425a1890cff96dc124"
+          "content" : "d9ea4ac8b154e663e642f8e68868ed20a49757efff7aad1d67be43b83dc66f535f240dcc2e0cd8b6353232dfd81ee77f"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "66181ba6937afe4d0234baa02670b110221b53000d5344b58a39c92b71708756"
+          "content" : "3bcb1e0bb1ba36817da3cb61d3ab9eda2284bb41cb4872d21f10e55cfee97a60"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "f3482da340676590e74c5e708cb971465c98fdb6f85dac64d018f9dff17d3569fc614ba33ba72f4334639cca13fd6d57ffb4b418cc3ca0af5c558c9fe82840f9"
+          "content" : "19f93900933ae967669bc179885ed14b3ce1b4e3274f5f465f7e5cf05b72945fcedfcdd5182920ab904c09e93b1f9d1a20f684a2e565128a0c237e53898874ef"
         }
       ],
       "licenses" : [
@@ -1142,7 +1133,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
+      "purl" : "pkg:maven/ch.qos.logback/logback-core@1.6.5?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -1158,7 +1149,7 @@
         }
       ],
       "type" : "library",
-      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar"
+      "bom-ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.5?type=jar"
     },
     {
       "group" : "net.logstash.logback",
@@ -1444,11 +1435,15 @@
       "dependsOn" : [
         "pkg:maven/org.apache.httpcomponents.core5/httpcore5@5.5-beta3?type=jar",
         "pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE?type=jar",
+        "pkg:maven/ognl/ognl@3.4.14?type=jar",
+        "pkg:maven/org.attoparser/attoparser@2.0.9.RELEASE?type=jar",
+        "pkg:maven/org.eclipse.jdt/ecj@3.46.100?type=jar",
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.26?type=jar",
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-jasper@11.0.26?type=jar",
         "pkg:maven/org.apache.velocity/velocity-engine-core@2.4.1?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.21.0?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
-        "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
+        "pkg:maven/ch.qos.logback/logback-classic@1.6.5?type=jar",
         "pkg:maven/net.logstash.logback/logstash-logback-encoder@9.0?type=jar",
         "pkg:maven/tools.jackson.core/jackson-databind@3.2.3?type=jar"
       ]
@@ -1460,24 +1455,24 @@
     {
       "ref" : "pkg:maven/org.thymeleaf/thymeleaf@3.1.5.RELEASE?type=jar",
       "dependsOn" : [
-        "pkg:maven/ognl/ognl@3.3.4?type=jar",
-        "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
+        "pkg:maven/ognl/ognl@3.4.14?type=jar",
+        "pkg:maven/org.attoparser/attoparser@2.0.9.RELEASE?type=jar",
         "pkg:maven/org.unbescape/unbescape@1.1.6.RELEASE?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/ognl/ognl@3.3.4?type=jar",
+      "ref" : "pkg:maven/ognl/ognl@3.4.14?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar"
+        "pkg:maven/org.javassist/javassist@3.33.0-GA?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.javassist/javassist@3.29.0-GA?type=jar",
+      "ref" : "pkg:maven/org.javassist/javassist@3.33.0-GA?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.attoparser/attoparser@2.0.7.RELEASE?type=jar",
+      "ref" : "pkg:maven/org.attoparser/attoparser@2.0.9.RELEASE?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1486,6 +1481,10 @@
     },
     {
       "ref" : "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.jdt/ecj@3.46.100?type=jar",
       "dependsOn" : [ ]
     },
     {
@@ -1503,7 +1502,7 @@
       "dependsOn" : [
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-core@11.0.26?type=jar",
         "pkg:maven/org.apache.tomcat.embed/tomcat-embed-el@11.0.26?type=jar",
-        "pkg:maven/org.eclipse.jdt/ecj@3.46.0?type=jar"
+        "pkg:maven/org.eclipse.jdt/ecj@3.46.100?type=jar"
       ]
     },
     {
@@ -1511,29 +1510,25 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/org.eclipse.jdt/ecj@3.46.0?type=jar",
-      "dependsOn" : [ ]
-    },
-    {
       "ref" : "pkg:maven/org.apache.velocity/velocity-engine-core@2.4.1?type=jar",
       "dependsOn" : [
-        "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-lang3@3.21.0?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.17.0?type=jar",
+      "ref" : "pkg:maven/org.apache.commons/commons-lang3@3.21.0?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.4?type=jar",
+      "ref" : "pkg:maven/ch.qos.logback/logback-classic@1.6.5?type=jar",
       "dependsOn" : [
-        "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
+        "pkg:maven/ch.qos.logback/logback-core@1.6.5?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.20?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.4?type=jar",
+      "ref" : "pkg:maven/ch.qos.logback/logback-core@1.6.5?type=jar",
       "dependsOn" : [ ]
     },
     {

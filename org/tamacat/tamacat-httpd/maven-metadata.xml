@@ -3,10 +3,11 @@
   <groupId>org.tamacat</groupId>
   <artifactId>tamacat-httpd</artifactId>
   <versioning>
-    <release>1.5</release>
+    <release>1.7.0-tc11.0.27</release>
     <versions>
       <version>1.5</version>
+      <version>1.7.0-tc11.0.27</version>
     </versions>
-    <lastUpdated>20211213122541</lastUpdated>
+    <lastUpdated>20261016225259</lastUpdated>
   </versioning>
 </metadata>
